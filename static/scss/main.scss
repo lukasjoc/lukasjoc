@@ -1,17 +1,22 @@
 @import "./reset";
+@import "./fonts";
 
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+
   display: flex;
   flex-flow: row nowrap;
-  min-height: 6em;
+  background-color: #ffffff;
+  min-height: 10vh;
   width: 100%;
-  padding-bottom: 10px ;
   div {
-    background: blue;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -28,20 +33,26 @@ header {
 
 .avatar {
   img {
-    min-width: 50px;
-    max-width: 50px;
+    min-width: 55px;
+    max-width: 55px;
+    border-radius: 50%;
   }
 }
 
-section {
-  padding-top: 7rem;
-  height: 100vh;
-  background: yellow;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.content {
+  padding-top: 13vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  // background: red;
+}
 
+section {
+  // background: yellow;
+  padding-top: 10vh;
+  height: 90vh;
   h3 {
-    font-size: 4em;
+    font-size: 3.5em;
+    font-family: "Domine", serif;
   }
   p {
     text-align: left;
@@ -55,16 +66,13 @@ footer {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-  min-height: 3rem;
-  background: green;
+  min-height: 5rem;
   span {
-    padding-left:.5em;
+    padding-left: 1em;
   }
 }
 
 main {
-  // width: 75em;
   width: 100%;
-  background: pink;
   margin: 0 auto;
 }

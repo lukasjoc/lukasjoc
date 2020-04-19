@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .some-page-wrapper {
+        margin: 15px;
+        /* background-color: red; */
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
+      .column > div {
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="some-page-wrapper">
+      <div class="row">
+        <div class="column">
+          <div class="blue-column">
+            <h1>Col1</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto nisi qui doloribus, nemo quibusdam rerum? Dolor atque
+              tempore aliquid expedita laboriosam molestiae recusandae, nesciunt
+              eius dignissimos nam debitis possimus delectus.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="green-column">
+            <h1>Col2</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto nisi qui doloribus, nemo quibusdam rerum? Dolor atque
+              tempore aliquid expedita laboriosam molestiae recusandae, nesciunt
+              eius dignissimos nam debitis possimus delectus.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="blue-column">
+            <h1>Col3</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto nisi qui doloribus, nemo quibusdam rerum? Dolor atque
+              tempore aliquid expedita laboriosam molestiae recusandae, nesciunt
+              eius dignissimos nam debitis possimus delectus.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="green-column">
+            <h1>Col4</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto nisi qui doloribus, nemo quibusdam rerum? Dolor atque
+              tempore aliquid expedita laboriosam molestiae recusandae, nesciunt
+              eius dignissimos nam debitis possimus delectus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

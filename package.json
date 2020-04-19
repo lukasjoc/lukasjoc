@@ -23,5 +23,8 @@
     "coffeescript": "^2.5.1",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "fullpage.js": "^3.0.8"
   }
 }
