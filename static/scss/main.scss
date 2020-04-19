@@ -3,7 +3,7 @@
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat;
 }
 header {
   position: fixed;
@@ -23,9 +23,9 @@ header {
     justify-content: center;
     align-items: center;
     img {
-      min-width: 24px;
-      max-width: 24px;
-      margin: 0.1em;
+      min-width: 2.5rem;
+      max-width: 2.5rem;
+      margin: 0.4em;
       cursor: pointer;
     }
   }
@@ -40,23 +40,23 @@ header {
 }
 
 .content {
-  padding-top: 13vh;
+  padding-top: 5vh;
   padding-right: 1vh;
   padding-left: 1vh;
-  // background: red;
+}
+.first{
+  padding-top: 5vh;
 }
 
 section {
-  // background: yellow;
-  padding-top: 10vh;
-  height: 90vh;
+  padding-top: 5vh;
   h3 {
     font-size: 3.5em;
-    font-family: "Domine", serif;
+    font-family: Domine;
   }
   p {
     text-align: left;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 1.5rem;
   }
 }
@@ -75,4 +75,31 @@ footer {
 main {
   width: 100%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 560px) {
+  section {
+    margin-top: 1rem;
+    // height: 30vh;
+    height: 20rem;
+    width: 50%;
+    float: left;
+    font-size: .7rem;
+    // background: red;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1230px) {
+  body {
+    background-color: green;
+    font-size: 16px;
+  }
+  main {
+    max-width: 60%;
+  }
+
 }
