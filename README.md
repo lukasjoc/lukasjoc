@@ -1,2 +1,4 @@
 # lukasjoc
-my ~ on the internet
+> my ~ on the internet
+
+[lukasjoc](https://lukasjoc.com)
