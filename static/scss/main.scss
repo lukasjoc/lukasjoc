@@ -1,0 +1,67 @@
+@import "./reset";
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 6em;
+  width: 100%;
+  padding-bottom: 10px ;
+  div {
+    background: blue;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    img {
+      min-width: 24px;
+      max-width: 24px;
+      margin: 0.1em;
+      cursor: pointer;
+    }
+  }
+}
+
+.avatar {
+  img {
+    min-width: 50px;
+    max-width: 50px;
+  }
+}
+
+section {
+  padding-top: 7rem;
+  height: 100vh;
+  background: yellow;
+
+  h3 {
+    font-size: 4em;
+  }
+  p {
+    text-align: left;
+    font-size: 2.5em;
+  }
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 3rem;
+  background: green;
+  span {
+    padding-left:.5em;
+  }
+}
+
+main {
+  // width: 75em;
+  width: 100%;
+  background: pink;
+  margin: 0 auto;
+}
