@@ -2,15 +2,20 @@
   "name": "lukasjoc",
   "version": "1.0.0",
   "description": "my ~ on the internet",
-  "author": "lukasjoc",
-  "private": true,
   "scripts": {
-    "serve": "NUXT_HOST=0.0.0.0 NUXT_PORT=1313 nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "serve": "parcel src/index.html --port=1313 --host=0.0.0.0",
+    "build": "parcel build src/index.html --out-dir build"
   },
-  "dependencies": {
-    "nuxt": "^2.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasjoc/lukasjoc.git"
+  },
+  "author": "lukasjoc",
+  "homepage": "https://lukasjoc.com",
+  "license": "MIT",
+  "devDependencies": {
+    "coffeescript": "^2.5.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
   }
 }
