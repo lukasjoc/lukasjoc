@@ -2,29 +2,15 @@
   "name": "lukasjoc",
   "version": "1.0.0",
   "description": "my ~ on the internet",
-  "main": "index.js",
+  "author": "lukasjoc",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "parcel index.html --port 1313 --host 0.0.0.0",
-    "build": "parcel build index.html --out-dir build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lukasjoc/lukasjoc.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lukasjoc/lukasjoc/issues"
-  },
-  "homepage": "https://github.com/lukasjoc/lukasjoc#readme",
-  "devDependencies": {
-    "coffeescript": "^2.5.1",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.3"
+    "serve": "NUXT_HOST=0.0.0.0 NUXT_PORT=1313 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "fullpage.js": "^3.0.8"
+    "nuxt": "^2.0.0"
   }
 }
