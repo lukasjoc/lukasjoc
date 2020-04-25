@@ -1,8 +1,10 @@
 ---
 version: "3.7"
+
 networks:
   PROXY_NETWORK:
     external: true
+
 services:
   website:
       build:

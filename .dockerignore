@@ -1,0 +1,7 @@
+.node_modules
+*.md
+*.sh
+dist/
+.cache/
+.DS_Store
+.vscode/

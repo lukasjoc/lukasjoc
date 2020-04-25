@@ -1,6 +1,7 @@
-.DS_Store/
-.vscode/
-.cache/
-build/
-dist/
-node_modules/
+node_modules
+dist
+.DS_Store
+.vscode
+*.swp
+.cache
+.env
