@@ -1,14 +1,15 @@
+"use-strict"
 
-PRECACHE = 'precache-v1'
-RUNTIME = 'runtime'
+PRECACHE = "precache-v1"
+RUNTIME = "runtime"
 
 PRECACHE_URLS = [
-  'index.html'
-  './'
-  'main.css'
+  "index.html"
+  "./"
+  "main.css"
 ]
 
-self.addEventListener 'install', (event) ->
+self.addEventListener "install", (event) ->
   event.waitUntil caches.open(PRECACHE)
 
   .then((cache) ->
@@ -17,7 +18,7 @@ self.addEventListener 'install', (event) ->
   ).then(self.skipWaiting())
   return
 
-self.addEventListener 'activate', (event) ->
+self.addEventListener "activate", (event) ->
   currentCaches = [ PRECACHE, RUNTIME ]
 
   event.waitUntil caches.keys().then((cacheNames) ->
@@ -36,7 +37,7 @@ self.addEventListener 'activate', (event) ->
   )
   return
 
-self.addEventListener 'fetch', (event) ->
+self.addEventListener "fetch", (event) ->
 
   if event.request.url.startsWith(self.location.origin)
     event.respondWith caches.match(event.request).then((cachedResponse) ->

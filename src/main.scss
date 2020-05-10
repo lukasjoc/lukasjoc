@@ -1,93 +1,84 @@
+$lg-wrapper-width: 100%;
+$background-color: #FFF;
+$foreground-color: #000;
+$selection-color: #E03C31;
+$link-color: #E03C31;
+
 html,
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: "Roboto";
-  background: #242423;
-  color: #fff;
+  margin: 1rem;
+  font-size: 1.3rem;
+  background: $background-color;
+  color: $foreground-color;
 
   ::-moz-selection {
-    color: #FFF;
-    background: #EBE44D;
+    color: $background-color;
+    background: $selection-color;
   }
 
   ::selection {
-    color: #FFF;
-    background: #EBE44D;
-  }
-
-  a {
-    color: #EBE44D;
-    font-size: 1.2rem;
+    color: $background-color;
+    background: $selection-color;
   }
 }
 
-$lg-wrapper-width: 60%;
-$sm-wrapper-width: 100%;
+a {
+  font-size: 1rem;
+  color: $link-color;
+}
+
+p {
+  font-family: serif;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+hr {
+  border: .1rem dotted;
+  width: 30%;
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   width: $lg-wrapper-width;
-}
-
-.row {
-  width: 100%;
 }
 
 .item {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
   width: 100%;
 
-  h1 {
-    color: #EBE44D;
-    font-family: "Roboto-Black";
-    font-size: 4rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1rem;
-    font-family: "Roboto-Light";
-  }
-
-  img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+  span {
+    padding-right: 1rem;
   }
 }
 
-footer {
-  width: $lg-wrapper-width;
-  height: 4rem;
-}
-
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 1340px) {
   .wrapper {
-    flex-direction: column;
+    width: 50%;
   }
-
-  .wrapper,
-  footer {
-    width: $sm-wrapper-width;
+  .item {
+    margin-top: 0rem;
   }
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Roboto-Light";
-  src: url("./fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-  font-family: "Roboto-Black";
-  src: url("./fonts/Roboto-Black.ttf");
 }
