@@ -4,7 +4,7 @@
   "description": "my ~ on the internet",
   "scripts": {
     "serve": "parcel src/index.html --port=1313 --host=0.0.0.0",
-    "build": "parcel build index.html --out-dir build/"
+    "build": "parcel build src/index.html --out-dir build/"
   },
   "repository": {
     "type": "git",
