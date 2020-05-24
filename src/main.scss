@@ -11,15 +11,17 @@ body {
   background: $background-color;
   color: $foreground-color;
 
-  ::-moz-selection {
-    color: $background-color;
-    background: $selection-color;
-  }
 
   ::selection {
     color: $background-color;
     background: $selection-color;
   }
+
+  ::-moz-selection {
+    color: $background-color;
+    background: $selection-color;
+  }
+
 }
 
 a {

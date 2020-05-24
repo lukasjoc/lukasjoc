@@ -12,4 +12,11 @@ RUN npm run build
 
 FROM nginx:1.17-alpine
 WORKDIR /usr/share/nginx/html
+
+RUN rm -rf /usr/share/nginx/html/* && \
+	rm -rf /etc/nginx/conf.d/default.conf
+
+COPY ./docker/default.conf /etc/nginx/conf.d/default.conf
+
 COPY --from=builder home/app/build/* ./
+
