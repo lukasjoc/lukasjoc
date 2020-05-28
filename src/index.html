@@ -12,17 +12,15 @@
 <body>
 
 	<header>
-    <img src="https://avatars1.githubusercontent.com/u/45790416" alt="avatar" /></span>
+    <img src="https://avatars1.githubusercontent.com/u/45790416" alt="avatar" />
   </header>
 
 	<div class="wrapper">
 
 		<div>
-      <p>
-        <h1>Hey, <br> me Lukas</h1>
-        <span class="current-age"></span> now. Programmer from Germany.
-        This is my cool, really important programmer portfolio. I hope that this torment with CSS was worth it
-      </p>
+    	<h1>Hey, <br> me Lukas</h1>
+      <span class="current-age"></span> now. Programmer from Germany.
+      This is my cool, really important programmer portfolio. I hope that this torment with CSS was worth it
       <br>
       <p>
         <a href="https://github.com/lukasjoc?tab=repositories&q=&type=public&language=">OSS Contributions</a>
@@ -59,7 +57,6 @@
       <h3>
         like 95% of my stuff is done with (that is indeed true):
       </h3>
-      <p>
         <a href="https://en.wikipedia.org/wiki/Go_(programming_language)"><u>Go(I just love golang)</u></a>,
         <a href="https://en.wikipedia.org/wiki/C%2B%2B"><u>C++(Ok not really)</u></a>,
         <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)"><u>Rust(::ohyea)</u></a>,
@@ -68,7 +65,6 @@
         <p> Will focus on compiled langs in the future. Think it's just a better concept.</p>
         <p> Usually writing low level stuff with Rust or Nim, servers, automation and tooling with Go and data heavy
           projects like ETL processes with Python</p>
-      </p>
     </div>
 
 		<div class="item">
@@ -120,7 +116,7 @@
 
     <footer>
       <small>
-        <a href="https://lukasjoc.com">lukasjoc</a>, <span class="current-year"></span>
+        <a href="https://lukasjoc.com">lukasjoc</a>, <span class="current-year"/>
       </small>
     </footer>
 
@@ -135,12 +131,12 @@
   <br>
   <div style="width:100%;height:0;padding-bottom:100%;position:relative;">
     <iframe src="https://giphy.com/gifs/dSeVDdzx1kri7GYWJG/html5" width="100%" height="100%" style="position:absolute"
-      frameBorder="0" class="giphy-embed" allowFullScreen>
+      frameBorder="0" class="giphy-embed">
     </iframe>
   </div>
   <div style="width:100%;height:0;padding-bottom:100%;position:relative;">
     <iframe src="https://giphy.com/gifs/3ov9jIoFd00talgv72/html5" width="100%" height="100%" style="position:absolute"
-      frameBorder="0" class="giphy-embed" allowFullScreen>
+      frameBorder="0" class="giphy-embed">
     </iframe>
   </div>
 
@@ -179,15 +175,27 @@
 		<a href="https://amzn.to/2zZQ6u61">Vorlesungen zur Einführung in die Psychoanalyse</a>,
 		</p>
 	</div>
+	</div>
 
-<!---
   <script>
-    if ("serviceWorker" in navigator) {
-			navigator.serviceWorker.register("./sw.coffee")
-		}
-  </script> -->
 
-  <script src="main.coffee"></script>
+	  function get_current_age(bdate) {
+	    return Math.floor((new Date()- new Date(bdate)) / 31557600000);
+	  };
+
+		let age_div = document.querySelector(".current-age");
+	  const bdate = "2000/12/13"
+		age_div.innerHTML = get_current_age(bdate);
+	
+	  function get_current_year() {
+	    return new Date().getFullYear();
+	  };
+
+	  let year_div = document.querySelector(".current-year");
+	  year_div.innerHTML = get_current_year();
+	
+	</script>
+
 </body>
 
 </html>
