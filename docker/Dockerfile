@@ -1,4 +1,3 @@
-
 # ----------
 FROM mhart/alpine-node:latest as builder
 
@@ -11,7 +10,6 @@ COPY src/ package.json package-lock.json ./
 
 RUN npm ci && \
 		npm run build
-
 
 # ----------
 FROM nginx:1.17-alpine
