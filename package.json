@@ -12,7 +12,7 @@
   },
   "author": "lukasjoc",
   "homepage": "https://lukasjoc.com",
-  "license": "MIT",
+  "license": "GPL-3",
   "devDependencies": {
     "coffeescript": "^2.5.1",
     "parcel-bundler": "^1.12.4",

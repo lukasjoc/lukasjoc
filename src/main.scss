@@ -1,86 +1,35 @@
-$lg-wrapper-width: 100%;
-$background-color: #FFF;
-$foreground-color: #000;
-$selection-color: #E03C31;
-$link-color: #E03C31;
-
 html,
 body {
-  margin: 1rem;
-  font-size: 1.3rem;
-  background: $background-color;
-  color: $foreground-color;
+  display: flex;
+  flex-direction: column;
+	justify-content:center;
+	align-items: center;
+  font-size: 28px;
+  background: #1b1d1e;
+  color: #f8f8f8;
+	margin: 0.4rem;
+}
 
-
-  ::selection {
-    color: $background-color;
-    background: $selection-color;
-  }
-
-  ::-moz-selection {
-    color: $background-color;
-    background: $selection-color;
-  }
-
+h3, a {
+	font-family : sans-serif;
 }
 
 a {
-  font-size: 1rem;
-  color: $link-color;
-}
-
-p {
-  font-family: serif;
-}
-
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: sans-serif;
-}
-
-hr {
-  border: .1rem dotted;
-  width: 30%;
+	color: #ff9900;
 }
 
 img {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  width: $lg-wrapper-width;
-}
-
-.item {
-  margin-top: 5rem;
-  width: 100%;
-}
-
 header {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  width: 100%;
-
-  span {
-    padding-right: 1rem;
-  }
+	width: 100%;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1080px) {
   .wrapper {
-    width: 50%;
-  }
-  .item {
-    margin-top: 0rem;
+  	width: 70%;
   }
 }
