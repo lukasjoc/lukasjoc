@@ -1,15 +1,12 @@
 # ----------
-FROM mhart/alpine-node:latest as builder
+# compile markup files
+# copy and done
+# optimize, minify css
 
+FROM scratch as builder
 WORKDIR home/app/
-RUN apk --no-cache add ca-certificates && \
-		apk add --update python3 make g++ && \
-		rm -rf /var/cache/apk/*
-
-COPY src/ package.json package-lock.json ./
-
-RUN npm ci && \
-		npm run build
+RUN ./render
+COPY build/ ./
 
 # ----------
 FROM nginx:1.17-alpine

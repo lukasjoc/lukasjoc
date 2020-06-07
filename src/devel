@@ -1,3 +1,0 @@
-#!/bin/bash
-
-pandoc --toc --from markdown --to html index.md -o index2.html

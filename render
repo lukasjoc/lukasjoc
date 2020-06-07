@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for file in content/*; do
+
+	if [ ! -d build/  ]; then
+		mkdir -p build/
+	fi
+
+	pandoc --toc --from markdown --to html $file -o ./build/$(basename ${file%.*}).html
+
+done
+
