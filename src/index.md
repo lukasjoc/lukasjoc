@@ -3,7 +3,7 @@ Title: Lukas Jocham | Software Programmer from Munich, Germany
 Author: lukasjoc
 --->
 
-![avatar](https://avatars1.githubusercontent.com/u/45790416)
+![avatar](https://avatars1.githubusercontent.com/u/45790416 | width=96)
 
 # Hey, me Lukas
 19 now. Programmer from Germany.
