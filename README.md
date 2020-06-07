@@ -1,15 +1,24 @@
 # lukasjoc
 > my ~ on the internet
 
-### Setup(Render an HTML version):
+### Setup(Rendering with Pandoc):
 ```bash
-cd src; ./devel
 
---> renders a new html file ready for displaying in browsers
-		!!does not auto sync changes..
+Render and serve(docker) the page source
 
-to view it type open index.html
+Usage:
+	./render Commands: [serve, build] || Flags: [ --help ]
+
+Commands:
+	serve | render and deploy locally with docker
+	build | render all .md files to build/ folder
+
+Flags:
+	--help | help for this /bin/sh script
+
+
 ```
+
 
 ### Why markdown + pandoc and not Hugo or Vue..
 - Simple
