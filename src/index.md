@@ -6,7 +6,7 @@ Author: lukasjoc
 <img 
   src="https://avatars1.githubusercontent.com/u/45790416" 
   alt="avatar" 
-  width="96" height="96" style="border-radius:50%;" />
+  width="96" height="96" style="border-radius: 50%;"/>
 
 # Hey, me Lukas
 19 now. Programmer from Germany.
