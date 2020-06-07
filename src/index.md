@@ -1,7 +1,7 @@
----
+<!---
 Title: Lukas Jocham | Software Programmer from Munich, Germany
 Author: lukasjoc
----
+--->
 
 ![avatar](https://avatars1.githubusercontent.com/u/45790416)
 
