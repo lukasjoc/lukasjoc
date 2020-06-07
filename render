@@ -1,12 +1,38 @@
-#!/bin/bash
+#!/bin/sh
 
-for file in content/*; do
+if [[ $1 == "build" ]]; then
+	for file in $PWD/pages/*; do
 
-	if [ ! -d build/  ]; then
-		mkdir -p build/
-	fi
+		if [ ! -d $PWD/build/  ]; then
+			mkdir -p $PWD/build/
+		fi
 
-	pandoc --toc --from markdown --to html $file -o ./build/$(basename ${file%.*}).html
+		cp ./sakura-vader.min.css build/
+		pandoc --template=$PWD/default.html --from markdown --to html $file -o $PWD/build/$(basename ${file%.*}).html
+	done
+	exit 0
+fi
 
-done
+if [[ $1 == "serve" ]]; then
+	docker stop lukasjoc_devel || true
+	docker rm lukasjoc_devel || true
+	docker build -t lukasjoc:devel -f docker/Dockerfile .
+	docker run --name lukasjoc_devel -p "80:80" -d lukasjoc:devel
+	exit 0
+fi
 
+if [[ $1 == "--help" || $# -gt 1 || $# -le 1 ]]; then
+	printf '%s\n\n' "Render and serve(docker) the page source"
+
+	printf '%s\n' "Usage:"
+		printf '%s\n\n'  "	./render Commands: [serve, build] || Flags: [ --help ]"
+
+	printf '%s\n' "Commands:"
+		printf '%s\n' "	serve | render and deploy locally with docker"
+		printf '%s\n\n' "	build | render all .md files to build/ folder"
+
+	printf '%s\n' "Flags:"
+		printf '%s\n\n' "	--help | help for this $BASH script"
+
+	exit 0
+fi

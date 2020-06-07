@@ -1,8 +1,0 @@
-#!/bin/bash
-
-docker stop lukasjoc_devel || true
-docker rm lukasjoc_devel || true
-docker build -t lukasjoc:devel -f docker/Dockerfile .
-
-docker run --name lukasjoc_devel -p "80:80" -d lukasjoc:devel
-
