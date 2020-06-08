@@ -6,8 +6,7 @@ if [[ $1 == "build" ]]; then
 		if [ ! -d $PWD/build/  ]; then
 			mkdir -p $PWD/build/
 		fi
-
-		# cp ./sakura-vader.min.css build/
+		
 		pandoc --template=$PWD/default.html --from markdown --to html $file -o $PWD/build/$(basename ${file%.*}).html
 	done
 	exit 0
