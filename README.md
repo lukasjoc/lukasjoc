@@ -18,10 +18,14 @@ Flags:
 
 Layout:
 ```bash
+.
 ├── LICENSE
 ├── README.md
-├── css
-│   └── sakura-theme.min.css
+├── build
+│   ├── 40x.html
+│   ├── 50x.html
+│   ├── cv.html
+│   └── index.html
 ├── default.html
 ├── docker
 │   ├── Dockerfile
@@ -34,8 +38,7 @@ Layout:
 │   └── index.md
 └── render
 
-3 directories, 12 files
-
+3 directories, 15 files
 ```
 
 
