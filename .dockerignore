@@ -1,7 +1,7 @@
-.node_modules
 *.md
 *.sh
-dist/
+out/
 .cache/
 .DS_Store
 .vscode/
+/build
