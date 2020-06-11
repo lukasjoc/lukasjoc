@@ -1,37 +1,52 @@
 #!/bin/sh
 
-if [[ $1 == "build" ]]; then
-	for file in $PWD/pages/*; do
+build_dir=$PWD/build
 
-		if [ ! -d $PWD/build/  ]; then
-			mkdir -p $PWD/build/
-		fi
-		
-		pandoc --template=$PWD/default.html --from markdown --to html $file -o $PWD/build/$(basename ${file%.*}).html
+if [[ $1 == "build" ]]; then
+	
+	if ! command -v "pandoc" >/dev/null 2>&1; then
+		echo "Pandoc must be installed or put in PATH since it is the rendering engine"
+		exit 1
+	fi
+	
+	if [ ! -d $build_dir  ]; then
+		mkdir -p $build_dir
+	fi
+
+	for file in $PWD/pages/*.md; do
+		pandoc --template=$PWD/default.html \
+			--from markdown \
+			--to html $file \
+			-o $build_dir/$(basename ${file%.*}).html
 	done
+
 	exit 0
 fi
 
 if [[ $1 == "serve" ]]; then
+
 	docker stop lukasjoc_devel || true
 	docker rm lukasjoc_devel || true
 	docker build -t lukasjoc:devel -f docker/Dockerfile .
 	docker run --name lukasjoc_devel -p "80:80" -d lukasjoc:devel
+
 	exit 0
 fi
 
 if [[ $1 == "--help" || $# -gt 1 || $# -le 1 ]]; then
-	printf '%s\n\n' "Render and serve(docker) the page source"
+cat <<EOF
+Usage: ${0##*/} [build, serve, --help]
+	
+Synopsys:
+	Render markdown files --> html and or serve website locally with Docker
 
-	printf '%s\n' "Usage:"
-		printf '%s\n\n'  "	./render Commands: [serve, build] || Flags: [ --help ]"
+Commands:
+	build	Render all markdown files located in $build_dir
+	serve Serve site locally with docker
 
-	printf '%s\n' "Commands:"
-		printf '%s\n' "	serve | render and deploy locally with docker"
-		printf '%s\n\n' "	build | render all .md files to build/ folder"
-
-	printf '%s\n' "Flags:"
-		printf '%s\n\n' "	--help | help for this $BASH script"
+Flags:
+	--help	Print help for the script
+EOF
 
 	exit 0
 fi

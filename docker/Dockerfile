@@ -2,7 +2,7 @@
 FROM pandoc/core as builder
 WORKDIR /app/
 COPY . .
-RUN ./render build
+RUN /bin/sh render build
 
 #-------
 FROM nginx:1.17-alpine

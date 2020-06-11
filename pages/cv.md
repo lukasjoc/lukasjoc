@@ -9,7 +9,7 @@ jochamlu@gmail.com | [lukasjoc.com](https://lukasjoc.com)
 ## Projektarbeit
 
 
-#### ETL-Entwicklung 
+### ETL-Entwicklung 
 03.2020 - 04.2020 (70h) | Jochen Schweizer mydays Holding | Tech-Stack: **Python**
 
 > Erstellen einer Data Pipeline um Sensorendaten in ein Data Warehouse zu
@@ -19,7 +19,7 @@ jochamlu@gmail.com | [lukasjoc.com](https://lukasjoc.com)
 
 
 
-#### Buchungsplattform-Entwicklung (Microservice Architektur)
+### Buchungsplattform-Entwicklung (Microservice Architektur)
 02.2019 - 08.2020 | Jochen Schweizer mydays Holding | Tech-Stack: **Perl**, **Node.js**
 
 > Entwickeln und Verwalten einer Vielzahl komplexer Buchungsplattformen
@@ -29,7 +29,7 @@ jochamlu@gmail.com | [lukasjoc.com](https://lukasjoc.com)
 
 
 
-#### SAP/ERP-Entwicklung	
+### SAP/ERP-Entwicklung	
 03.2018 - 02.2019 | Jochen Schweizer mydays Holding | Tech-Stack: **ABAP**, **ABAP/OO**, **SQL/oSQL**
 
 > Entwickeln und Verwaltung einer großen SAP/ERP Landschaft. Erstellen von
@@ -39,7 +39,7 @@ jochamlu@gmail.com | [lukasjoc.com](https://lukasjoc.com)
 
 
 
-#### Web-Entwicklung
+### Web-Entwicklung
 ABSTAR 09.2017 | 03.2018 Jochen Schweizer mydays Holding | Tech-Stack: **Node.js**, **HTML/CSS/JS**
 
 > Agiles Entwickeln einer Plattform um den Firmensport im Unternhemen zu
@@ -51,15 +51,14 @@ ABSTAR 09.2017 | 03.2018 Jochen Schweizer mydays Holding | Tech-Stack: **Node.js
 ## Bildender Werdegang
 
 
-#### Jochen Schweizer mydays Holding GmbH
+### Jochen Schweizer mydays Holding GmbH
 09.2017 - 08.2020 | IHK Ausbildung Fachinformatiker für Anwendungsentwickung | Note: **TBD**
 
 > Im Rahmen der Ausbildung bei der JSMDH durfte ich in diverse Berreiche der Software Entwicklung und Design
 	Einblick erhalten. Ich habe den Berreich der Web Entwicklung, SAP sowie API Entwicklung erleben dürfen.
 
 
-
-#### Fahrrad Zimmermann 
+### Fahrrad Zimmermann
 03.2015 - 09.2017 | Minijob Vertriebsperson | 10h/Woche
 
 > Beraten von Kunden und Verkaufen von hochwertigen Fahrrädern. Einblick
@@ -68,7 +67,7 @@ ABSTAR 09.2017 | 03.2018 Jochen Schweizer mydays Holding | Tech-Stack: **Node.js
 	Werkstattbetrieb.
 
 
-#### Realschulabschluss
+### Realschulabschluss
 06.2017 | Werner-von-Siemens Realschule | Note: 1.8
 
 
@@ -85,4 +84,5 @@ Andere Kenntnisse:         Logisches Denken, Teamarbeit, Proaktiviät
 \
 
 I value privacy and self will so anything you do here is secure. I dont log anything, run analytics or track you.
+
 [lukasjoc](https://lukasjoc.com), 2020

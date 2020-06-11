@@ -3,19 +3,38 @@
 
 ### Setup(Rendering with Pandoc):
 ```bash
+Usage: render [build, serve, --help]
 
-Render and serve(docker) the page source
-
-Usage:
-	./render Commands: [serve, build] || Flags: [ --help ]
+Synopsys:
+        render markdown files --> html and or serve website locally with Docker
 
 Commands:
-	serve | render and deploy locally with docker
-	build | render all .md files to build/ folder
+        build   Render all markdown files located in /Users/jochamlu/fun/lukasjoc/build
+        serve serve site locally with docker
 
 Flags:
-	--help | help for this /bin/sh script
+        --help  Print help for the script
+```
 
+Layout:
+```bash
+├── LICENSE
+├── README.md
+├── css
+│   └── sakura-theme.min.css
+├── default.html
+├── docker
+│   ├── Dockerfile
+│   └── default.conf
+├── docker-compose.yml
+├── pages
+│   ├── 40x.md
+│   ├── 50x.md
+│   ├── cv.md
+│   └── index.md
+└── render
+
+3 directories, 12 files
 
 ```
 
@@ -30,6 +49,5 @@ Flags:
 - fast development speed with propper tmux/vim setup
 - I prefer documents over javascript's "template"
 - Haskel over Go is the better tool for this usecase
-
 
 [lukasjoc](https://lukasjoc.com), 2020
