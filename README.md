@@ -1,7 +1,7 @@
 # lukasjoc
 > my ~ on the internet
 
-### Setup(Rendering with Pandoc):
+Setup, Rendering (with Pandoc)
 ```bash
 Usage: render [build, serve, --help]
 
