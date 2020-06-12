@@ -73,6 +73,8 @@ robotic vacuum cleaners and not just rely only on one
 [Bitwarden](https://www.bitwarden.com),
 [Macbook Pro](https://apple.com),
 [Arch Linux](https://www.archlinux.org/),
+[FreeBSD](https://www.freebsd.org/),
+[MacOS](https://www.apple.com/macos/),
 [Pandas](https://pandas.pydata.org/),
 [NumPy](https://numpy.org/),
 [Parcel](https://parceljs.org/),
