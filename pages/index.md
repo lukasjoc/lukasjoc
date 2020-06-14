@@ -109,7 +109,8 @@ When it becomes work and does not remain learning, it becomes creeping, pressing
 [become your own alchemist, guided meditation by sadhguru](https://www.youtube.com/watch?v=BdBsFGHdIP0),
 [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go),
 [Writing Beautiful Packages in Go](https://www.youtube.com/watch?v=cmkKxNN7cs4&list=LLe8YGhACDT5yqPAuwefPfKg&index=342&t=0s),
-[10 Tips For Clean Code](https://www.youtube.com/watch?v=UjhX2sVf0eg)
+[10 Tips For Clean Code](https://www.youtube.com/watch?v=UjhX2sVf0eg),
+[Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws)
 
 ### Great books and reading
 [Free Programming Books](https://goalkicker.com/),
