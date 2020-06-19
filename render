@@ -1,6 +1,8 @@
-#!/bin/sh
+#!/bin/bash
+# Author: lukasjoc
+# Render and serve the website with all content as html and with css
 
-build_dir=$PWD/build
+declare build_dir=$PWD/build
 
 if [[ $1 == "build" ]]; then
 	
