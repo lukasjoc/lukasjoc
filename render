@@ -1,52 +1,79 @@
-#!/bin/sh
+#!/bin/bash
+# Author: lukasjoc
+# License: MIT
+# Desc: Rendering script. Markdown content to html with template
+# Prereqs: pandoc
+#######
+set -u
 
-build_dir=$PWD/build
+__usage() {
+	printf '\n%s\n\n' "Rendering/Build script. Markdown content to html with template"
+	printf '%s\n\n' "USAGE:"
+	printf '%s\n\n'  " ${0##*/} [ -h ] [ build ] [ serve ]"
 
-if [[ $1 == "build" ]]; then
-	
+	return 1
+}
+
+__build() {
 	if ! command -v "pandoc" >/dev/null 2>&1; then
 		echo "Pandoc must be installed or put in PATH since it is the rendering engine"
+
 		exit 1
 	fi
 	
-	if [ ! -d $build_dir  ]; then
-		mkdir -p $build_dir
+	
+	local build_dir
+	build_dir="$PWD"/build
+
+	if [ ! -d "$build_dir"  ]; then
+		mkdir -p "$build_dir"
 	fi
 
-	for file in $PWD/pages/*.md; do
-		pandoc --template=$PWD/default.html \
+	for candidate in "$PWD"/pages/*.md; do
+		pandoc \
 			--from markdown \
-			--to html $file \
-			-o $build_dir/$(basename ${file%.*}).html
+			--to html "$candidate" \
+			--template="$PWD"/default.html \
+			-o "$build_dir/$(basename "${candidate%.*}").html"
 	done
 
-	exit 0
-fi
+	return 0	
+}
 
-if [[ $1 == "serve" ]]; then
-
+__serve() {
 	docker stop lukasjoc_devel || true
 	docker rm lukasjoc_devel || true
 	docker build -t lukasjoc:devel -f docker/Dockerfile .
 	docker run --name lukasjoc_devel -p "80:80" -d lukasjoc:devel
 
-	exit 0
+	return 0
+}
+
+
+# print help if zero args are given
+if [[ "$#" == "0" ]]; then
+	__usage
 fi
 
-if [[ $1 == "--help" || $# -gt 1 || $# -le 1 ]]; then
-cat <<EOF
-Usage: ${0##*/} [build, serve, --help]
-	
-Synopsys:
-	Render markdown files --> html and or serve website locally with Docker
+## handle single flags upper and lowercase
+# while getopts ":hsv" opt 2>/dev/null; do
+declare opt
+declare OPTARG
+declare OPTIND
+while getopts ":h" opt; do
+	case ${opt} in
+		h) __usage;;
+		\?) echo "Invalid Option: -$OPTARG" 1>&2;;
+	esac
+done
 
-Commands:
-	build	Render all markdown files located in $build_dir
-	serve Serve site locally with docker
+declare subcmd
+subcmd="${1:-}"; shift
+case "$subcmd" in
+	build) __build;;
+	serve) __serve;;
+esac
 
-Flags:
-	--help	Print help for the script
-EOF
 
-	exit 0
-fi
+shift $((OPTIND -1))
+
