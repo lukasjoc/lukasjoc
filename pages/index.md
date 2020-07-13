@@ -7,16 +7,54 @@ title: Lukas Jocham | Software Programmer from Munich, Germany
 </header>
 
 # Hey, me Lukas
-19 now. Programmer from Germany.
+Software Programmer from Germany.
 
-This is my cool and really important programmer portfolio. I hope that this torment with CSS was
-worth it.
+This is something about me
 
-[Github](https://github.com/lukasjoc), [GitLab](https://gitlab.com/lukasjoc), [CV(German)](/cv.html), [Twitter](https://twitter.com/lukasjoc)
+[LinkedIn](https://linkedin.com/in/lukasjoc), [Github](https://github.com/lukasjoc), [GitLab](https://gitlab.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc)
 
+
+When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
 If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
 
-### What I like:
+### Programming Languages I like (best tool for the job):
+[Go](https://golang.org/), [Python](https://python.org/), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
+
+### Aditional Skills:
+[Git](https://en.wikipedia.org/wiki/Git),
+[Linux](https://en.wikipedia.org/wiki/Linux),
+[Kanban](https://en.wikipedia.org/wiki/Kanban),
+[Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)),
+[Docker](https://en.wikipedia.org/wiki/Docker_(software)),
+[A bunch of Databases (relational, and NoSQL, Caches, KVSes, MQs and other data persistence systems](https://en.wikipedia.org/wiki/Database),
+[TDD](https://en.wikipedia.org/wiki/Test-driven_development),
+[Clean Code](https://en.wikipedia.org/wiki/Software_quality)
+
+### Specialized in:
+[Backend/API Development](https://en.wikipedia.org/wiki/Application_programming_interface), [Web Development](https://en.wikipedia.org/wiki/Web_development), [Data Engineering](https://en.wikipedia.org/wiki/Data_science)
+
+### Some projects:
+
+#### Data Engineering
+- ETL-Pipeline for Sensorsdata at [JSMDG](http://www.jochen-schweizer-gruppe.de/das-unternehmen/)
+
+#### Backend Develpment
+- Service Architecture for Bookings Platform  at [JSMDG](http://www.jochen-schweizer-gruppe.de/das-unternehmen/)
+
+#### Web Development
+- Web Services and Frontend Features at [JSMDG](http://www.jochen-schweizer-gruppe.de/das-unternehmen/)
+- [yt-save-for-later](https://github.com/lukasjoc/yt-save-for-later)
+
+#### Automations
+- [gogit](https://github.com/lukasjoc/gogit)
+- [automations](https://github.com/lukasjoc/automations)
+
+#### Else
+- [envm](https://github.com/lukasjoc/envm)
+- [my configuration](https://github.com/lukasjoc/files)
+- [numrec](https://github.com/lukasjoc/numrec)
+
+### How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
 [Programming Computers](https://en.wikipedia.org/wiki/Computer_programming),
 [Learning sth. new](https://en.wikipedia.org/wiki/Learning),
@@ -25,19 +63,9 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Enduro](https://en.wikipedia.org/wiki/Enduro_(mountain_biking)),
 [Nature](https://en.wikipedia.org/wiki/Nature),
 [Cooking](https://en.wikipedia.org/wiki/Cooking),
-[Autodidacticism, Learning from the real masters. The users.](https://en.wikipedia.org/wiki/Autodidacticism)
+[Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism)
 
-### What I dislike:
-CSS-Hell, [Java](https://en.wikipedia.org/wiki/Criticism_of_Java),
-[Scammers](https://en.wikipedia.org/wiki/Confidence_trick),
-[social credit systems](https://en.wikipedia.org/wiki/Social_Credit_System),
-[ads, advertising, marketing](https://duckduckgo.com/?q=why+ads+are+bad+&t=bravened&ia=web),
-[bullshit](https://duckduckgo.com/?q=why+ads+are+bad+&t=bravened&ia=web),
-[overly bureaucratic systems](https://en.wikipedia.org/wiki/Bureaucracy),
-[Non Free Software](https://www.gnu.org/philosophy/free-sw.html),
-[ElectronJS](https://www.electronjs.org/)
-
-### My fields of deep interest ;):
+### Some fields that interest me additionally to programming and computer science
 [Automation](https://en.wikipedia.org/wiki/Automation),
 [Automatic Programming (Code Generation)](Automatic programming),
 [Sound (nD, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
@@ -50,27 +78,26 @@ CSS-Hell, [Java](https://en.wikipedia.org/wiki/Criticism_of_Java),
 [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience),
 [Models, Emulators, understanding current and long gone nature and nurture between humans and life overall](https://en.wikipedia.org/wiki/Computer_simulation)
 
-### What I use:
-[Go](https://golang.org/), [Rust](https://www.rust-lang.org/), [Python or IPython](https://python.org/), [Bash](https://www.gnu.org/software/bash/)
+### What type of developer am I?
 
-#### When do I use it?
-- APIs, Servers, Networking, DEV OPS, SRE etc. -> Go
-- Automation, Sytem Level, Embedded etc. -> Bash, Rust
-- Data Pipelines, Analytics, Machine and Deep Learning etc. -> Python, Cpp
+#### When I design a product I look for 4 things:
+- can it eliminate a pain point
+- can it simplify the current
+- can it automate a boring human task
+- can it delegate focus from a human mind
 
-**!** In an embedded world, compiled langs are the future. Python will decrease in population and languages like Go and Rust
-will be the winners.
+#### When I develop a serious product then...:
+- it must be secure
+- it must be performant
+- it must be written with modern technology
 
-**!** In a world where we have to look twice on energy consumtion and loss, for our environments sake,
-we as programmers are obliged to write more performant and better code overall. Let us use the fucking 4 trillion cores our users have in there
-robotic vacuum cleaners and not just rely only on one
-
-### Cool tools (Hard & Software) I use almost daily:
+### Amazing tools (Hard & Software) I use almost daily:
 [Git](https://git-scm.com),
 [Vim](https://www.vim.org),
 [Tmux](https://github.com/tmux/tmux),
 [Docker](https://www.docker.com),
 [Bitwarden](https://www.bitwarden.com),
+[OwnCloud](https://owncloud.com/)
 [Macbook Pro](https://apple.com),
 [Arch Linux](https://www.archlinux.org/),
 [FreeBSD](https://www.freebsd.org/),
@@ -81,19 +108,6 @@ robotic vacuum cleaners and not just rely only on one
 [Pandoc](https://pandoc.org/),
 [WASD CODE Keyboard (Clears)](https://www.codekeyboards.com/),
 [Khan Academy](https://de-de.khanacademy.org/),
-
-
-### What type of developer am I?
-
-#### When I design a product I:
-... usually try to create a decentralized version instead of a centralized version.
-An anonymous version indstead of a user login. Lesser amazing features instead of a lot messed up features.
-	
-... think of a problem to be solved in the easiest possible way. I do things rather fast and proactive, and yes
-sure it takes longer that way, but it also makes me happy to learn that way.
-
-### Things to say
-When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted.
 
 ### Nice to watch
 [Free to Choose](https://www.youtube.com/playlist?list=PL0364ACCE6C7E9D8E),
@@ -123,7 +137,6 @@ When it becomes work and does not remain learning, it becomes creeping, pressing
 [Atlas Shrugged](https://www.buecher.de/shop/lyrik/atlas-shrugged/rand-ayn/products_products/detail/prod_id/09791001/),
 [Permutation City](https://www.buecher.de/shop/englische-buecher/permutation-city/egan-greg/products_products/detail/prod_id/23241056/),
 [Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/)
-
 
 \
 
