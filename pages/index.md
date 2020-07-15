@@ -7,7 +7,7 @@ title: Lukas Jocham | Software Programmer from Munich, Germany
 </header>
 
 # Hey, me Lukas
-Software Programmer from Germany.
+Software Developer (Backend, API, Databases) from Germany.
 
 This is something about me
 
