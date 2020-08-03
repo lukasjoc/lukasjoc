@@ -18,10 +18,10 @@ When it becomes work and does not remain learning, it becomes creeping, pressing
 If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
 
 ### Programming Languages I like (best tool for the job):
-[Go](https://golang.org/), [Python](https://python.org/), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
+[Go](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
 
+<!-- ### Aditional Skills:
 ### Aditional Skills:
-[Git](https://en.wikipedia.org/wiki/Git),
 [Linux](https://en.wikipedia.org/wiki/Linux),
 [Kanban](https://en.wikipedia.org/wiki/Kanban),
 [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)),
@@ -52,7 +52,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 #### Else
 - [envm](https://github.com/lukasjoc/envm)
 - [my configuration](https://github.com/lukasjoc/files)
-- [numrec](https://github.com/lukasjoc/numrec)
+- [numrec](https://github.com/lukasjoc/numrec) -->
 
 ### How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
@@ -71,7 +71,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Sound (nD, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
 [Linux](https://en.wikipedia.org/wiki/Linux),
 [Doing stuff with data](https://en.wikipedia.org/wiki/Data),
-[underwater SeaLines](https://en.wikipedia.org/wiki/Submarine_communications_cable),
+[Underwater SeaLines](https://en.wikipedia.org/wiki/Submarine_communications_cable),
 [Satelites](https://en.wikipedia.org/wiki/Satellite),
 [Understanding intend](https://en.wikipedia.org/wiki/Intention),
 [Robotics](https://en.wikipedia.org/wiki/Robotics),
@@ -108,6 +108,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Pandoc](https://pandoc.org/),
 [WASD CODE Keyboard (Clears)](https://www.codekeyboards.com/),
 [Khan Academy](https://de-de.khanacademy.org/),
+[Pocket](https://getpocket.com/)
 
 ### Nice to watch
 [Free to Choose](https://www.youtube.com/playlist?list=PL0364ACCE6C7E9D8E),
@@ -136,8 +137,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Infinite Jest](https://www.buecher.de/shop/usa/infinite-jest/wallace-david-foster/products_products/detail/prod_id/23522382/),
 [Atlas Shrugged](https://www.buecher.de/shop/lyrik/atlas-shrugged/rand-ayn/products_products/detail/prod_id/09791001/),
 [Permutation City](https://www.buecher.de/shop/englische-buecher/permutation-city/egan-greg/products_products/detail/prod_id/23241056/),
-[Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/)
-
+[Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/), [Description of the Voynich MS](http://www.voynich.nu/descr.html)
 \
 
 I value privacy and self will so anything you do here is secure. I dont log anything, run analytics or track you.

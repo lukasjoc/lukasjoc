@@ -1,0 +1,3 @@
+#!/bin/bash
+
+dc down; dc up --build -d
