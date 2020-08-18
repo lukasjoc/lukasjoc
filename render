@@ -1,16 +1,10 @@
 #!/bin/bash
-# Author: lukasjoc
-# License: MIT
-# Desc: Rendering script. Markdown content to html with template
-# Prereqs: pandoc
-#######
 set -u
 
 __usage() {
 	printf '\n%s\n\n' "Rendering/Build script. Markdown content to html with template"
 	printf '%s\n\n' "USAGE:"
 	printf '%s\n\n'  " ${0##*/} [ -h ] [ build ] [ serve ]"
-
 	return 1
 }
 
@@ -20,7 +14,6 @@ __build() {
 
 		exit 1
 	fi
-	
 	
 	local build_dir
 	build_dir="$PWD"/build
@@ -45,7 +38,6 @@ __serve() {
 	docker rm lukasjoc_devel || true
 	docker build -t lukasjoc:devel -f docker/Dockerfile .
 	docker run --name lukasjoc_devel -p "80:80" -d lukasjoc:devel
-
 	return 0
 }
 
@@ -56,7 +48,6 @@ if [[ "$#" == "0" ]]; then
 fi
 
 ## handle single flags upper and lowercase
-# while getopts ":hsv" opt 2>/dev/null; do
 declare opt
 declare OPTARG
 declare OPTIND

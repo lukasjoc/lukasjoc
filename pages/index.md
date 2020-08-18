@@ -2,16 +2,14 @@
 title: Lukas Jocham | Software Programmer from Munich, Germany
 ---
 
-<header>
-<img alt="avatar" src="https://avatars1.githubusercontent.com/u/45790416" style=" width: 10rem; height: 10rem; border-radius: 50%;" />
-</header>
+![](https://avatars1.githubusercontent.com/u/45790416)
 
 # Hey, me Lukas
 Software Developer (Backend, API, Databases) from Germany.
 
 This is something about me
 
-[LinkedIn](https://linkedin.com/in/lukasjoc), [Github](https://github.com/lukasjoc), [GitLab](https://gitlab.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc)
+[Github](https://github.com/lukasjoc), [GitLab](https://gitlab.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc),[LinkedIn](https://linkedin.com/in/lukasjoc),
 
 
 When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
@@ -20,52 +18,17 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 ### Programming Languages I like (best tool for the job):
 [Go](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
 
-<!-- ### Aditional Skills:
-### Aditional Skills:
-[Linux](https://en.wikipedia.org/wiki/Linux),
-[Kanban](https://en.wikipedia.org/wiki/Kanban),
-[Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)),
-[Docker](https://en.wikipedia.org/wiki/Docker_(software)),
-[A bunch of Databases (relational, and NoSQL, Caches, KVSes, MQs and other data persistence systems](https://en.wikipedia.org/wiki/Database),
-[TDD](https://en.wikipedia.org/wiki/Test-driven_development),
-[Clean Code](https://en.wikipedia.org/wiki/Software_quality)
-
-### Specialized in:
-[Backend/API Development](https://en.wikipedia.org/wiki/Application_programming_interface), [Web Development](https://en.wikipedia.org/wiki/Web_development), [Data Engineering](https://en.wikipedia.org/wiki/Data_science)
-
-### Some projects:
-
-#### Data Engineering
-- ETL-Pipeline for Sensorsdata at [JSMDG](http://www.jochen-schweizer-gruppe.de/das-unternehmen/)
-
-#### Backend Develpment
-- Service Architecture for Bookings Platform  at [JSMDG](http://www.jochen-schweizer-gruppe.de/das-unternehmen/)
-
-#### Web Development
-- Web Services and Frontend Features at [JSMDG](http://www.jochen-schweizer-gruppe.de/das-unternehmen/)
-- [yt-save-for-later](https://github.com/lukasjoc/yt-save-for-later)
-
-#### Automations
-- [gogit](https://github.com/lukasjoc/gogit)
-- [automations](https://github.com/lukasjoc/automations)
-
-#### Else
-- [envm](https://github.com/lukasjoc/envm)
-- [my configuration](https://github.com/lukasjoc/files)
-- [numrec](https://github.com/lukasjoc/numrec) -->
-
 ### How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
 [Programming Computers](https://en.wikipedia.org/wiki/Computer_programming),
-[Learning sth. new](https://en.wikipedia.org/wiki/Learning),
-[Technology](https://ourworldindata.org/technological-progress),
+[Learning something new](https://en.wikipedia.org/wiki/Learning),
+[Thinking about tech](https://ourworldindata.org/technological-progress),
 [Developing a great product](https://en.wikipedia.org/wiki/New_product_development),
-[Enduro](https://en.wikipedia.org/wiki/Enduro_(mountain_biking)),
-[Nature](https://en.wikipedia.org/wiki/Nature),
+[Riding Enduro](https://en.wikipedia.org/wiki/Enduro_(mountain_biking)),
+[Being Nature](https://en.wikipedia.org/wiki/Nature),
 [Cooking](https://en.wikipedia.org/wiki/Cooking),
-[Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism)
 
-### Some fields that interest me additionally to programming and computer science
+### Some fields that interest me
 [Automation](https://en.wikipedia.org/wiki/Automation),
 [Automatic Programming (Code Generation)](Automatic programming),
 [Sound (nD, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
@@ -78,19 +41,6 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience),
 [Models, Emulators, understanding current and long gone nature and nurture between humans and life overall](https://en.wikipedia.org/wiki/Computer_simulation)
 
-### What type of developer am I?
-
-#### When I design a product I look for 4 things:
-- can it eliminate a pain point
-- can it simplify the current
-- can it automate a boring human task
-- can it delegate focus from a human mind
-
-#### When I develop a serious product then...:
-- it must be secure
-- it must be performant
-- it must be written with modern technology
-
 ### Amazing tools (Hard & Software) I use almost daily:
 [Git](https://git-scm.com),
 [Vim](https://www.vim.org),
@@ -100,11 +50,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [OwnCloud](https://owncloud.com/)
 [Macbook Pro](https://apple.com),
 [Arch Linux](https://www.archlinux.org/),
-[FreeBSD](https://www.freebsd.org/),
 [MacOS](https://www.apple.com/macos/),
-[Pandas](https://pandas.pydata.org/),
-[NumPy](https://numpy.org/),
-[Parcel](https://parceljs.org/),
 [Pandoc](https://pandoc.org/),
 [WASD CODE Keyboard (Clears)](https://www.codekeyboards.com/),
 [Khan Academy](https://de-de.khanacademy.org/),

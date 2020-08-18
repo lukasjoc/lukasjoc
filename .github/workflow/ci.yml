@@ -1,0 +1,17 @@
+name: Checking Docker Build after push
+
+on:
+	push:
+  	branches: [ master ]
+  pull_request:
+ 		branches: [ master ]
+
+jobs:
+	build:
+  	runs-on: ubuntu-20.04
+    timeout-minutes: 30
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check if container build works
+      run: ./render serve
+

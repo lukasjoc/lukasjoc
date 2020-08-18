@@ -1,4 +1,3 @@
-#-------
 FROM pandoc/core as builder
 RUN apk --no-cache add bash
 WORKDIR /app/
