@@ -17,10 +17,12 @@ __build() {
 	
 	local build_dir
 	build_dir="$PWD"/build
-
+		
 	if [ ! -d "$build_dir"  ]; then
 		mkdir -p "$build_dir"
 	fi
+
+	cp "$PWD/DroidSansMono.ttf" "$build_dir"
 
 	for candidate in "$PWD"/pages/*.md; do
 		pandoc \

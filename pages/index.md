@@ -1,34 +1,34 @@
 ---
-title: Lukas Jocham | Software Programmer from Munich, Germany
+title: Lukas Jocham | Developer from Munich, Germany
 ---
 
 ![](https://avatars1.githubusercontent.com/u/45790416)
 
 # Hey, me Lukas
-Software Developer (Backend, API, Databases) from Germany.
+**Developer** from Germany.
 
 This is something about me
 
-[Github](https://github.com/lukasjoc), [GitLab](https://gitlab.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc),[LinkedIn](https://linkedin.com/in/lukasjoc),
+[Github](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc), [Twitch](https://www.twitch.tv/lukasjoc)
 
 
-When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
-If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
+> When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
+> If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
 
 ### Programming Languages I like (best tool for the job):
-[Go](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
+[Go](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP), [Nim](https://nim-lang.org/)
 
 ### How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
-[Programming Computers](https://en.wikipedia.org/wiki/Computer_programming),
-[Learning something new](https://en.wikipedia.org/wiki/Learning),
-[Thinking about tech](https://ourworldindata.org/technological-progress),
-[Developing a great product](https://en.wikipedia.org/wiki/New_product_development),
-[Riding Enduro](https://en.wikipedia.org/wiki/Enduro_(mountain_biking)),
-[Being Nature](https://en.wikipedia.org/wiki/Nature),
+[Programming](https://en.wikipedia.org/wiki/Computer_programming),
+[Learning](https://en.wikipedia.org/wiki/Learning),
+[Thinking](https://ourworldindata.org/technological-progress),
+[Developing](https://en.wikipedia.org/wiki/New_product_development),
+[Enduro](https://en.wikipedia.org/wiki/Enduro_(mountain_biking)),
+[Nature](https://en.wikipedia.org/wiki/Nature),
 [Cooking](https://en.wikipedia.org/wiki/Cooking),
 
-### Some fields that interest me
+### Some fields that interest me:
 [Automation](https://en.wikipedia.org/wiki/Automation),
 [Automatic Programming (Code Generation)](Automatic programming),
 [Sound (nD, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
@@ -41,7 +41,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience),
 [Models, Emulators, understanding current and long gone nature and nurture between humans and life overall](https://en.wikipedia.org/wiki/Computer_simulation)
 
-### Amazing tools (Hard & Software) I use almost daily:
+### Tools I use:
 [Git](https://git-scm.com),
 [Vim](https://www.vim.org),
 [Tmux](https://github.com/tmux/tmux),
@@ -56,7 +56,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Khan Academy](https://de-de.khanacademy.org/),
 [Pocket](https://getpocket.com/)
 
-### Nice to watch
+### Nice to watch:
 [Free to Choose](https://www.youtube.com/playlist?list=PL0364ACCE6C7E9D8E),
 [Der Alchimist](https://www.youtube.com/watch?v=W_o88JGP_sE),
 [Siddhartha](https://www.youtube.com/watch?v=G0_sJSP2RhU),
@@ -73,7 +73,7 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [10 Tips For Clean Code](https://www.youtube.com/watch?v=UjhX2sVf0eg),
 [Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws)
 
-### Great books and reading
+### Great books and reading:
 [Free Programming Books](https://goalkicker.com/),
 [The Hacker Manifesto](http://www.mithral.com/~beberg/manifesto.html),
 [A Casino Odyssey in Cyberspace](http://localroger.com/casodycs.html),
@@ -83,9 +83,12 @@ If you have a cool problem, or want to talk to me then message me [here](https:/
 [Infinite Jest](https://www.buecher.de/shop/usa/infinite-jest/wallace-david-foster/products_products/detail/prod_id/23522382/),
 [Atlas Shrugged](https://www.buecher.de/shop/lyrik/atlas-shrugged/rand-ayn/products_products/detail/prod_id/09791001/),
 [Permutation City](https://www.buecher.de/shop/englische-buecher/permutation-city/egan-greg/products_products/detail/prod_id/23241056/),
-[Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/), [Description of the Voynich MS](http://www.voynich.nu/descr.html)
+[Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/), [Description of the Voynich MS](http://www.voynich.nu/descr.html), [Eric Thomas | Motivational Speech | How Bad Do you](https://www.youtube.com/watch?v=6vuetQSwFW8)
+
+
 \
 
-I value privacy and self will so anything you do here is secure. I dont log anything, run analytics or track you.
+I value privacy and self will so anything you do here is secure. \
+I dont log anything, run analytics or track you.
 
 [lukasjoc](https://lukasjoc.com), 2020
