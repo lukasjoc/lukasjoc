@@ -1,5 +1,5 @@
 # Hey, me Lukas
-**Developer** from Germany.
+Currently a **Web Dev PHP/Vue** from Germany (idk dev role naming is f****ed up).
 
 This is something about me
 
