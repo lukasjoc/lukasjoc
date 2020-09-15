@@ -1,7 +1,7 @@
 # Hey, me Lukas
-Currently a **Web Dev PHP/Vue** from Germany (idk dev role naming is f****ed up).
+Currently a **Web Dev** from Germany.
 
-This is something about me
+This is something about me.
 
 [Github](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc), [Twitch](https://www.twitch.tv/lukasjoc), [BandCamp](https://lukasjoc.bandcamp.com)
 
