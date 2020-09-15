@@ -5,7 +5,7 @@ This is something about me
 
 [Github](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc), [Twitch](https://www.twitch.tv/lukasjoc), [BandCamp](https://lukasjoc.bandcamp.com)
 
-> When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
+> When it becomes work rather than learning, it becomes gradually suffocating, bland and unwanted.✌️
 
 If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
 
