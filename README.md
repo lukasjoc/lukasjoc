@@ -13,7 +13,7 @@ You can find me here:
 
 ### What I normally use:
 
-<!-- Go -->
+<!-- <!-- Go -->
 <a href="https://golang.org/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" width="64" height="64" alt="Go"/>
 </a>
@@ -38,5 +38,6 @@ You can find me here:
 <a href="https://en.wikipedia.org/wiki/Perl">
   <img src="https://upload.wikimedia.org/wikipedia/en/e/e0/Programming-republic-of-perl.png" width="64" height="64" alt="Perl_5"/>
 </a>
+-->
 
 [lukasjoc](https://lukasjoc.com), 2020
