@@ -1,6 +1,6 @@
 # Hey, me Lukas
 
-Software Dev from Germany.
+**Software Dev** from Germany.
 
 This is something about me.
 
