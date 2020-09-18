@@ -1,16 +1,15 @@
 ---
-title: Lukas Jocham | Developer from Munich, Germany
+title: Lukas Jocham | Software Developer from Munich, Germany
 ---
 
 ![](https://avatars1.githubusercontent.com/u/45790416)
 
 # Hey, me Lukas
-**Developer** from Germany.
+**Software Developer** from Germany.
 
 This is something about me
 
-[Github](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc), [Twitch](https://www.twitch.tv/lukasjoc)
-
+[GitHub](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc)
 
 > When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
 > If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
@@ -71,7 +70,8 @@ This is something about me
 [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go),
 [Writing Beautiful Packages in Go](https://www.youtube.com/watch?v=cmkKxNN7cs4&list=LLe8YGhACDT5yqPAuwefPfKg&index=342&t=0s),
 [10 Tips For Clean Code](https://www.youtube.com/watch?v=UjhX2sVf0eg),
-[Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws)
+[Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws),
+[Eric Thomas | Motivational Speech | How Bad Do you](https://www.youtube.com/watch?v=6vuetQSwFW8)
 
 ### Great books and reading:
 [Free Programming Books](https://goalkicker.com/),
@@ -79,12 +79,11 @@ This is something about me
 [A Casino Odyssey in Cyberspace](http://localroger.com/casodycs.html),
 [Crime and Punishment](https://www.planetebook.com/free-ebooks/crime-and-punishment.pdf),
 [The Metamorphosis of Prime Intellect](https://paradroid.com/junk/tmopi.pdf),
-[The Secret](https://www.buecher.de/shop/spiritualitaet--esoterik/the-secret-das-geheimnis/byrne-rhonda/products_products/detail/prod_id/22624429/),
 [Infinite Jest](https://www.buecher.de/shop/usa/infinite-jest/wallace-david-foster/products_products/detail/prod_id/23522382/),
 [Atlas Shrugged](https://www.buecher.de/shop/lyrik/atlas-shrugged/rand-ayn/products_products/detail/prod_id/09791001/),
 [Permutation City](https://www.buecher.de/shop/englische-buecher/permutation-city/egan-greg/products_products/detail/prod_id/23241056/),
-[Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/), [Description of the Voynich MS](http://www.voynich.nu/descr.html), [Eric Thomas | Motivational Speech | How Bad Do you](https://www.youtube.com/watch?v=6vuetQSwFW8)
-
+[Vorlesungen zur Einführung in die Psychoanalyse](https://www.buecher.de/shop/philosophie-psychoanalyse/vorlesungen-zur-einfuehrung-in-die-psychoanalyse/freud-sigmund/products_products/detail/prod_id/28178949/),
+[Description of the Voynich MS](http://www.voynich.nu/descr.html)
 
 \
 
