@@ -1,72 +1,91 @@
 #!/bin/bash
 set -u
 
+# print current version of this srcipt
+__version() { echo "render version v0.2"; }
+
+# print usage information
 __usage() {
-	printf '\n%s\n\n' "Rendering/Build script. Markdown content to html with template"
-	printf '%s\n\n' "USAGE:"
-	printf '%s\n\n'  " ${0##*/} [ -h ] [ build ] [ serve ]"
-	return 1
+	cat <<EOF
+Rendering/Build script. Markdown content to html with template
+
+Usage:
+ ./render [flags]
+ ./render [command]
+
+Commands:
+ serve    build the bundle and expose as docker container
+ build    build the bundle to build/ dir
+ version  print current version of this script
+ help     print the help message
+
+Flags:
+ -s, --serve        build the bundle and expose as docker container
+ -b, --build        build the bundle to build/ dir
+ -v, -V, --version  print current version of this script
+ -h, --help         print the help message
+
+Use "./render [help] | [-h|--help]" for more information about this script.
+EOF
 }
 
-__build() {
-	if ! command -v "pandoc" >/dev/null 2>&1; then
-		echo "Pandoc must be installed or put in PATH since it is the rendering engine"
+build_bundle() {
 
+	# check if pandoc is installed
+	if ! command -v "pandoc" >/dev/null 2>&1; then
+		echo "Pandoc is a requirement!!"
 		exit 1
 	fi
-	
+
+	# handle build dir
 	local build_dir
 	build_dir="$PWD"/build
-		
-	if [ ! -d "$build_dir"  ]; then
-		mkdir -p "$build_dir"
-	fi
+	if [ ! -d "$build_dir"  ]; then mkdir -p "$build_dir"; fi
 
-	cp "$PWD/DroidSansMono.ttf" "$build_dir"
+	# Prepare resources
+	cp -a "$PWD/resources/" "$build_dir"
 
+	# build markdown files and add to build_dir
 	for candidate in "$PWD"/pages/*.md; do
 		pandoc \
 			--from markdown \
 			--to html "$candidate" \
 			--template="$PWD"/default.html \
 			-o "$build_dir/$(basename "${candidate%.*}").html"
-	done
+		done
 
-	return 0	
-}
+		return 0
+	}
 
-__serve() {
-	docker stop lukasjoc_devel || true
-	docker rm lukasjoc_devel || true
-	docker build -t lukasjoc:devel -f docker/Dockerfile .
-	docker run --name lukasjoc_devel -p "80:80" -d lukasjoc:devel
+serve_bundle() {
+	docker stop lukasjoc_latest || true
+	docker rm lukasjoc_latest || true
+
+	# build the image
+	docker build \
+		-t lukasjoc:latest \
+		-f docker/Dockerfile "$PWD"
+
+	# use image to create the container on port 80
+	docker run \
+		--name lukasjoc_latest \
+		-p "80:80" \
+		-d lukasjoc:latest
+
 	return 0
 }
 
-
 # print help if zero args are given
-if [[ "$#" == "0" ]]; then
-	__usage
-fi
+if [[ "$#" == "0" ]]; then __usage; fi
 
-## handle single flags upper and lowercase
-declare opt
-declare OPTARG
-declare OPTIND
-while getopts ":h" opt; do
-	case ${opt} in
-		h) __usage;;
-		\?) echo "Invalid Option: -$OPTARG" 1>&2;;
+# unprocessed_args=()
+while [[ "$#" -ne 0 ]]; do
+	case "$1" in
+		-s|--serve|serve) serve_bundle;; # build and serve bundle
+		-b|--build|build) build_bundle;; # build bundle
+		-h|--help|help) __usage; exit 0;; # print help
+		-v|-V|--version|version) __version; exit 0;; # print version
+		*) __usage; exit 1;; # print usage if command, flag not processable
 	esac
+	shift
 done
-
-declare subcmd
-subcmd="${1:-}"; shift
-case "$subcmd" in
-	build) __build;;
-	serve) __serve;;
-esac
-
-
-shift $((OPTIND -1))
-

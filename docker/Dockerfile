@@ -3,9 +3,10 @@ RUN apk --no-cache add bash
 WORKDIR /app/
 COPY . .
 
-# HINT: Because I'm building my html files in the container I use bash here.. 
-# My script uses modern bash features like scoping and so on (declare, local etc.) that are not available for /bin/sh
-RUN /bin/bash render build
+# Need bash for the script to execute
+RUN apk --no-cache add bash
+RUN /bin/bash render -b
+RUN apk --no-cache del bash
 
 #-------
 FROM nginx:1.17-alpine

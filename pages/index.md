@@ -2,7 +2,7 @@
 title: Lukas Jocham | Software Developer from Munich, Germany
 ---
 
-![](https://avatars1.githubusercontent.com/u/45790416)
+![](https://avatars1.githubusercontent.com/u/45790416 "avatar")
 
 # Hey, me Lukas
 **Software Developer** from Germany.
@@ -12,12 +12,12 @@ This is something about me
 [GitHub](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc)
 
 > When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
-> If you have a cool problem, or want to talk to me then message me [here](https://twitter.com/lukasjoc)
+> If you have a cool problem, or want to talk to me then message me via [email](mailto:jochamlu@gmail.com)
 
-### Programming Languages I like (best tool for the job):
-[Go](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP), [Nim](https://nim-lang.org/)
+## Programming Languages I like (best tool for the job):
+[GoLang](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
 
-### How I spend my time on this earth:
+## How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
 [Programming](https://en.wikipedia.org/wiki/Computer_programming),
 [Learning](https://en.wikipedia.org/wiki/Learning),
@@ -27,10 +27,10 @@ This is something about me
 [Nature](https://en.wikipedia.org/wiki/Nature),
 [Cooking](https://en.wikipedia.org/wiki/Cooking),
 
-### Some fields that interest me:
+## Some fields that interest me:
 [Automation](https://en.wikipedia.org/wiki/Automation),
 [Automatic Programming (Code Generation)](Automatic programming),
-[Sound (nD, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
+[Sound (nD Sound, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
 [Linux](https://en.wikipedia.org/wiki/Linux),
 [Doing stuff with data](https://en.wikipedia.org/wiki/Data),
 [Underwater SeaLines](https://en.wikipedia.org/wiki/Submarine_communications_cable),
@@ -40,7 +40,7 @@ This is something about me
 [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience),
 [Models, Emulators, understanding current and long gone nature and nurture between humans and life overall](https://en.wikipedia.org/wiki/Computer_simulation)
 
-### Tools I use:
+## Tools I use:
 [Git](https://git-scm.com),
 [Vim](https://www.vim.org),
 [Tmux](https://github.com/tmux/tmux),
@@ -55,7 +55,7 @@ This is something about me
 [Khan Academy](https://de-de.khanacademy.org/),
 [Pocket](https://getpocket.com/)
 
-### Nice to watch:
+## Nice to watch:
 [Free to Choose](https://www.youtube.com/playlist?list=PL0364ACCE6C7E9D8E),
 [Der Alchimist](https://www.youtube.com/watch?v=W_o88JGP_sE),
 [Siddhartha](https://www.youtube.com/watch?v=G0_sJSP2RhU),
@@ -73,7 +73,7 @@ This is something about me
 [Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws),
 [Eric Thomas | Motivational Speech | How Bad Do you](https://www.youtube.com/watch?v=6vuetQSwFW8)
 
-### Great books and reading:
+## Great books and reading:
 [Free Programming Books](https://goalkicker.com/),
 [The Hacker Manifesto](http://www.mithral.com/~beberg/manifesto.html),
 [A Casino Odyssey in Cyberspace](http://localroger.com/casodycs.html),

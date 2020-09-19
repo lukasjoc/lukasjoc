@@ -1,0 +1,18 @@
+// Custom CSS Rules
+
+@font-face {
+	font-family: DroidSansMono;
+	src: url(DroidSansMono.ttf);
+}
+
+html, body {
+	font-family: DroidSansMono;
+}
+
+img {
+	margin: 0;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+}
+
