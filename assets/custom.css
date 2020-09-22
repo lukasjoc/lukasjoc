@@ -1,0 +1,11 @@
+// Cusom Css Styles
+
+html, body { font-family: DroidSansMono; }
+
+img {
+	margin: 0;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+}
+

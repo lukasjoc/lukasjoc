@@ -32,18 +32,23 @@ EOF
 build_bundle() {
 
 	# check if pandoc is installed
-	if ! command -v "pandoc" >/dev/null 2>&1; then
-		echo "Pandoc is a requirement!!"
-		exit 1
-	fi
+	if ! command -v "pandoc" >/dev/null 2>&1; then echo "Pandoc is a requirement!!"; exit 1; fi
 
 	# handle build dir
 	local build_dir
 	build_dir="$PWD"/build
-	if [ ! -d "$build_dir"  ]; then mkdir -p "$build_dir"; fi
 
-	# Prepare resources
-	cp -a "$PWD/resources/" "$build_dir"
+	# create if there else remove and create
+	# cache option  is not needed with this easy script
+	if [ ! -d "$build_dir"  ]; then
+		mkdir -p "$build_dir"
+	else
+		rm -rf "$build_dir"
+		mkdir -p "$build_dir"
+	fi
+
+	# Prepare assets
+	cp -a "$PWD/assets/" "$build_dir"
 
 	# build markdown files and add to build_dir
 	for candidate in "$PWD"/pages/*.md; do
@@ -54,6 +59,7 @@ build_bundle() {
 			-o "$build_dir/$(basename "${candidate%.*}").html"
 		done
 
+		tree "$build_dir"
 		return 0
 	}
 
@@ -89,3 +95,4 @@ while [[ "$#" -ne 0 ]]; do
 	esac
 	shift
 done
+

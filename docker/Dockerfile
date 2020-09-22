@@ -1,12 +1,12 @@
 FROM pandoc/core as builder
 RUN apk --no-cache add bash
 WORKDIR /app/
-COPY . .
+COPY   . .
 
 # Need bash for the script to execute
-RUN apk --no-cache add bash
+RUN apk --no-cache add bash tree
 RUN /bin/bash render -b
-RUN apk --no-cache del bash
+RUN apk --no-cache del bash tree
 
 #-------
 FROM nginx:1.17-alpine
