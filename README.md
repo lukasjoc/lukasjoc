@@ -2,7 +2,7 @@
 
 **Software Dev** from Germany.
 
-If you want to contact me do that via <a href="mailto:jochamlu@gmail.com">mail</a>
+If you want to contact me do that via [mail](mailto:jochamlu@gmail.com)
 
 You can find more of me here:
   - [Twitter](https://twitter.com/lukasjoc)
