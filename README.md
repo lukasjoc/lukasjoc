@@ -1,4 +1,5 @@
-# Hey, me Lukas ![pepo](https://api.yologlyphics.com:8440/api/png/11770@4.png) ![ohwowlatete](https://api.yologlyphics.com:8440/api/png/51849@4.png)
+# Hey, me Lukas ![pepo](https://api.yologlyphics.com:8440/api/png/11770@4.png)
+<!-- ![ohwowlatete](https://api.yologlyphics.com:8440/api/png/51849@4.png) DOES LOOK SHIT WITH GH DARK THEME -->
 
 **Software Dev** from Germany.
 
