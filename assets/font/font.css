@@ -5,3 +5,14 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+// IBMPlexMono-Light
+@font-face {
+	font-family: "IBMPlexMonoLight";
+	src: url("IBMlexMono-Light.woff2") format("woff2"),
+	url("IBMPlexMono-Light.woff") format("woff");
+	font-weight: light;
+	font-style: light;
+}
+
+
