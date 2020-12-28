@@ -7,4 +7,6 @@ If you want to contact me do that via [**Mail**](mailto:jochamlu@gmail.com) but 
 
 You can find me on [**Twitter**](https://twitter.com/lukasjoc) &&| my [**Website**](https://lukasjoc.com)
 
+[ISC](https://opensource.org/licenses/ISC) License on everything here if not explicitly noted in `LICENSE*`
+
 [lukasjoc](https://lukasjoc.com), 2020
