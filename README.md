@@ -4,7 +4,7 @@
 
 If you want to contact me do that via [**Mail**](mailto:jochamlu@gmail.com) but dont expect an answer.
 
-AYou can find me on [**Twitter**](https://twitter.com/lukasjoc) and my [**Website**](https://lukasjoc.com)
+You can find me on [**Twitter**](https://twitter.com/lukasjoc) and on my [**Website**](https://lukasjoc.com)
 
 [ISC](https://opensource.org/licenses/ISC) License on everything here if not explicitly noted in `LICENSE*`
 
