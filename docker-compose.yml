@@ -12,21 +12,21 @@ services:
       dockerfile: docker/Dockerfile
     image: lukasjoc:latest
     container_name: lukasjoc
-    healthcheck:
-      test: ["CMD", "service", "nginx", "status"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
+   # healthcheck:
+   #   test: ["CMD", "service", "nginx", "status"]
+   #   interval: 30s
+   #   timeout: 10s
+   #   retries: 5
     labels:
       - "traefik.enable=true"
-      - "traefik.http.middlewares.https-redirect.redirectscheme.scheme=https"
-      - "traefik.http.routers.lukasjoc.middlewares=https-redirect"
+      - "traefik.http.middlewares.httpsredirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.lukasjoc.middlewares=httpsredirect"
       - "traefik.http.routers.lukasjoc.entrypoints=http"
-      - "traefik.http.routers.lukasjoc-secure.tls=true"
-      - "traefik.http.routers.lukasjoc-secure.entrypoints=https"
-      - "traefik.http.routers.lukasjoc-secure.tls.certresolver=http-01-challenge"
+      - "traefik.http.routers.lukasjocsecure.tls=true"
+      - "traefik.http.routers.lukasjocsecure.entrypoints=https"
+      - "traefik.http.routers.lukasjocsecure.tls.certresolver=http01challenge"
       - "traefik.http.routers.lukasjoc.rule=Host(`lukasjoc.com`, `www.lukasjoc.com`)"
-      - "traefik.http.routers.lukasjoc-secure.rule=Host(`lukasjoc.com`, `www.lukasjoc.com`)"
+      - "traefik.http.routers.lukasjocsecure.rule=Host(`lukasjoc.com`, `www.lukasjoc.com`)"
     restart: always
     networks:
       - PROXY_NETWORK
