@@ -12,11 +12,6 @@ services:
       dockerfile: docker/Dockerfile
     image: lukasjoc:latest
     container_name: lukasjoc
-    healthcheck:
-      test: ["CMD-SHELL", "wget -O /dev/null http://localhost || exit 1"]
-      interval: 10s
-      timeout: 20s
-      retries: 5
     labels:
       - "traefik.enable=true"
       - "traefik.http.middlewares.httpsredirect.redirectscheme.scheme=https"
