@@ -1,15 +1,13 @@
 FROM pandoc/core as builder
 RUN apk --no-cache add bash
 WORKDIR /app/
-COPY   . .
-
-# Need bash for the script to execute
+COPY . .
 RUN apk --no-cache add bash tree
-RUN /bin/bash render -b
+RUN /bin/bash render build
 RUN apk --no-cache del bash tree
 
 #-------
-FROM nginx:1.17-alpine
+FROM nginx:mainline
 WORKDIR /usr/share/nginx/html
 COPY $PWD/docker/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/build/* ./

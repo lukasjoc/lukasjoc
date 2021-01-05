@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,13 +14,37 @@
     <meta name="rating" content="general">
     <link rel="canonical shortcut icon" type="image/x-icon" href="https://avatars1.githubusercontent.com/u/45790416">
     <link rel="canonical stylesheet" href="awsm.min.css" type="text/css">
-    <link href="font/font.css" rel="canonical stylesheet" type="text/css">
-    <link href="custom.css" rel="canonical stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap" rel="stylesheet">
     <title>$pagetitle$</title>
-</head>
-<body>
+    <style>
+      html, body {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 100%;
+        font-weight: 200;
+      }
+      img {
+        margin: 0;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+      }
+      a { font-weight: 300; }
+      pre {
+        background: none !important;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
     <main>
-        $body$
+      $body$
+      <br>
+      <a href="https://lukasjoc.com">lukasjoc</a>, <span class="current-year"></span>
     </main>
-</body>
+    <script>
+      let e = document.querySelector(".current-year")
+      e.innerText = new Date().getFullYear()
+    </script>
+  </body>
 </html>

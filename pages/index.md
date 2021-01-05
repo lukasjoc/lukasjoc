@@ -7,15 +7,35 @@ title: Lukas Jocham | Software Developer from Munich, Germany
 # Hey, me Lukas
 **Software Developer** from Germany.
 
-This is something about me
+This is something about me.
 
 [GitHub](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc)
 
-> When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
-> If you have a cool problem, or want to talk to me then message me via [email](mailto:jochamlu@gmail.com)
+When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
+If you have a cool problem, or want to talk to me then message me via [email](mailto:jochamlu@gmail.com)
 
-## Programming Languages I like (best tool for the job):
-[GoLang](https://golang.org/), [Python](https://python.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP)
+
+<pre>
+       ////////
+     .'       `'.
+    / - -        `\
+   /(')(')         \
+   /  ^        )   |
+   \.--.           |
+    \--'          /
+     \__.-' __..''
+wow    /    |
+life is
+great when there is
+curiosity and tinkering.
+
+No bobby we dont tinker, dont be curious.
+Life can be hard and painful if you do..
+So just be normal..
+</pre>
+
+## Programming Languages I like:
+[Go](https://golang.org/), [Python](https://python.org/), [Erlang](https://www.erlang.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl)
 
 ## How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
@@ -28,32 +48,26 @@ This is something about me
 [Cooking](https://en.wikipedia.org/wiki/Cooking),
 
 ## Some fields that interest me:
+[Systems Programming](https://en.wikipedia.org/wiki/Systems_programming),
+[Embedded System Programming](https://en.wikipedia.org/wiki/Embedded_system),
 [Automation](https://en.wikipedia.org/wiki/Automation),
-[Automatic Programming (Code Generation)](Automatic programming),
-[Sound (nD Sound, processing etc.)](https://en.wikipedia.org/wiki/Sound_and_music_computing),
-[Linux](https://en.wikipedia.org/wiki/Linux),
-[Doing stuff with data](https://en.wikipedia.org/wiki/Data),
-[Underwater SeaLines](https://en.wikipedia.org/wiki/Submarine_communications_cable),
-[Satelites](https://en.wikipedia.org/wiki/Satellite),
-[Understanding intend](https://en.wikipedia.org/wiki/Intention),
-[Robotics](https://en.wikipedia.org/wiki/Robotics),
-[Neuroscience](https://en.wikipedia.org/wiki/Neuroscience),
-[Models, Emulators, understanding current and long gone nature and nurture between humans and life overall](https://en.wikipedia.org/wiki/Computer_simulation)
+[Linux and Operating Systems](https://en.wikipedia.org/wiki/Linux),
+[Robotics and intelligent machines](https://en.wikipedia.org/wiki/Robotics),
+[Neuroscience and BioInformatics](https://en.wikipedia.org/wiki/Neuroscience),
+[Models, Emulators and Simulators](https://en.wikipedia.org/wiki/Computer_simulation)
 
 ## Tools I use:
 [Git](https://git-scm.com),
-[Vim](https://www.vim.org),
+[Vim/Nvim](https://www.vim.org),
 [Tmux](https://github.com/tmux/tmux),
-[Docker](https://www.docker.com),
 [Bitwarden](https://www.bitwarden.com),
-[OwnCloud](https://owncloud.com/)
 [Macbook Pro](https://apple.com),
 [Arch Linux](https://www.archlinux.org/),
 [MacOS](https://www.apple.com/macos/),
 [Pandoc](https://pandoc.org/),
 [WASD CODE Keyboard (Clears)](https://www.codekeyboards.com/),
-[Khan Academy](https://de-de.khanacademy.org/),
 [Pocket](https://getpocket.com/)
+
 
 ## Nice to watch:
 [Free to Choose](https://www.youtube.com/playlist?list=PL0364ACCE6C7E9D8E),
@@ -90,4 +104,4 @@ This is something about me
 I value privacy and self will so anything you do here is secure. \
 I dont log anything, run analytics or track you.
 
-[lukasjoc](https://lukasjoc.com), 2020
+Imprint ([EN Version](./impr_en.html) | [DE Version](./impr_de.html))

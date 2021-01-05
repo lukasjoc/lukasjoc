@@ -2,7 +2,7 @@
 version: "3.7"
 
 networks:
-  PROXY_NETWORK:
+  proxy:
     external: true
 
 services:
@@ -14,8 +14,8 @@ services:
     container_name: lukasjoc
     healthcheck:
       test: ["CMD-SHELL", "wget -O /dev/null http://localhost || exit 1"]
-      interval: 30s
-      timeout: 10s
+      interval: 10s
+      timeout: 20s
       retries: 5
     labels:
       - "traefik.enable=true"
@@ -27,7 +27,7 @@ services:
       - "traefik.http.routers.lukasjocsecure.tls.certresolver=http01challenge"
       - "traefik.http.routers.lukasjoc.rule=Host(`lukasjoc.com`, `www.lukasjoc.com`)"
       - "traefik.http.routers.lukasjocsecure.rule=Host(`lukasjoc.com`, `www.lukasjoc.com`)"
-    restart: always
+    restart: unless-stopped
     networks:
-      - PROXY_NETWORK
+      - proxy
 
