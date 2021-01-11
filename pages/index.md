@@ -104,4 +104,4 @@ So just be normal..
 I value privacy and self will so anything you do here is secure. \
 I dont log anything, run analytics or track you.
 
-Imprint ([EN Version](./impr_en.html) | [DE Version](./impr_de.html))
+Imprint ([EN Version](./impr_en.html) | [DE Version](./impr_de.html)), [Scratchpad](./scratchpad.html)
