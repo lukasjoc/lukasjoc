@@ -8,6 +8,4 @@ You can find me on [**Twitter**](https://twitter.com/lukasjoc) and on my [**Webs
 
 [ISC](https://opensource.org/licenses/ISC) License on everything here if not explicitly noted in `LICENSE*`
 
-We are free. Never forget that.
-
 [lukasjoc](https://lukasjoc.com), 2020
