@@ -1,10 +1,14 @@
 # Hey, me Lukas ![pepo](https://api.yologlyphics.com:8440/api/png/11770@4.png)
 
-**Software Dev** from Germany.
 
-If you want to contact me do that via [**Mail**](mailto:jochamlu@gmail.com) but dont expect an answer.
+For all of my new projects I use [sr.ht](https://sr.ht/~lukasjoc) now. So make sure to follow me there!
 
-You can find me on [**Twitter**](https://twitter.com/lukasjoc) and on my [**Website**](https://lukasjoc.com)
+
+
+
+<!-- If you want to contact me do that via [**Mail**](mailto:jochamlu@gmail.com) but dont expect an answer. -->
+
+<!-- You can find me on [**Twitter**](https://twitter.com/lukasjoc) and on my [**Website**](https://lukasjoc.com) -->
 
 [ISC](https://opensource.org/licenses/ISC) License on everything here if not explicitly noted in `LICENSE*`
 
