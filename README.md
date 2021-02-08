@@ -1,6 +1,6 @@
 # Hey, me Lukas ![pepo](https://api.yologlyphics.com:8440/api/png/11770@4.png)
 
-I'm interested in Web Dev, Embedded Systems and Compilers
+I'm interested in Web Dev, Embedded Systems and Compilers. \
 For all of my new projects I use [sr.ht](https://sr.ht/~lukasjoc) now.
 
 
