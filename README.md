@@ -1,7 +1,7 @@
 # Hey, me Lukas ![pepo](https://api.yologlyphics.com:8440/api/png/11770@4.png)
 
 
-For all of my new projects I use [sr.ht](https://sr.ht/~lukasjoc) now. So make sure to follow me there!
+For all of my new projects I use [sr.ht](https://sr.ht/~lukasjoc) now.
 
 
 
