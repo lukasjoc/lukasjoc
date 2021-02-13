@@ -1,7 +1,7 @@
 # Hey, me Lukas ![pepo](https://api.yologlyphics.com:8440/api/png/11770@4.png)
 
 I'm interested in Web Dev, Embedded Systems, Operating Systems and Compilers. \
-For some of my new projects I use [sr.ht](https://sr.ht/~lukasjoc) now.
+For some of my new projects I use [sr.ht](https://git.sr.ht/~lukasjoc) now.
 
 
 
