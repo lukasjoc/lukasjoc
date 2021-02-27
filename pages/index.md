@@ -7,12 +7,12 @@ title: Lukas Jocham | Software Developer from Munich, Germany
 # Hey, me Lukas
 **Software Developer** from Germany.
 
-This is something about me.
+[GitHub](https://github.com/lukasjoc)
+[Twitter](https://twitter.com/lukasjoc)
+[LinkedIn](https://linkedin.com/in/lukasjoc)
 
-[GitHub](https://github.com/lukasjoc), [Twitter](https://twitter.com/lukasjoc), [LinkedIn](https://linkedin.com/in/lukasjoc)
-
-When it becomes work and does not remain learning, it becomes creeping, pressing, bland, unwanted. \
-If you have a cool problem, or want to talk to me then message me via [email](mailto:jochamlu@gmail.com)
+When it becomes work and does not remain learning, it becomes **creeping**, **pressing**, **bland**, **unwanted**. \
+If you have a **cool** problem, or want to talk to me then message me via [email](mailto:jochamlu@gmail.com)
 
 
 <pre>
@@ -35,7 +35,14 @@ So just be normal..
 </pre>
 
 ## Programming Languages I like:
-[Go](https://golang.org/), [Python](https://python.org/), [Erlang](https://www.erlang.org/), [C](https://en.wikipedia.org/wiki/C_%28programming_language%29), [Bash](https://www.gnu.org/software/bash/), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Perl](https://en.wikipedia.org/wiki/Perl)
+[go](https://golang.org/doc/),
+[python](https://python.org/),
+[erlang](https://erldocs.com/),
+[c](https://en.wikipedia.org/wiki/C_%28programming_language%29),
+[bash POSIX](https://www.gnu.org/software/bash/),
+[javascript](https://en.wikipedia.org/wiki/JavaScript),
+[perl5](https://en.wikipedia.org/wiki/Perl)
+[markdown](https://commonmark.org/)
 
 ## How I spend my time on this earth:
 [A Cool Problem](https://en.wikipedia.org/wiki/Problem_solving),
@@ -62,13 +69,13 @@ So just be normal..
 [Tmux](https://github.com/tmux/tmux),
 [Bitwarden](https://www.bitwarden.com),
 [Macbook Pro](https://apple.com),
-[Arch Linux](https://www.archlinux.org/),
+[Arch](https://www.archlinux.org/),
 [MacOS](https://www.apple.com/macos/),
 [Pandoc](https://pandoc.org/),
 [WASD CODE Keyboard (Clears)](https://www.codekeyboards.com/),
 [Pocket](https://getpocket.com/)
 
-
+<!-- Add author archives that i like like Max Frisch, Herman Hesse, etc-->
 ## Nice to watch:
 [Free to Choose](https://www.youtube.com/playlist?list=PL0364ACCE6C7E9D8E),
 [Der Alchimist](https://www.youtube.com/watch?v=W_o88JGP_sE),
@@ -87,6 +94,7 @@ So just be normal..
 [Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws),
 [Eric Thomas | Motivational Speech | How Bad Do you](https://www.youtube.com/watch?v=6vuetQSwFW8)
 
+<!-- TODO: add pdfs to these books when possible -->
 ## Great books and reading:
 [Free Programming Books](https://goalkicker.com/),
 [The Hacker Manifesto](http://www.mithral.com/~beberg/manifesto.html),
@@ -102,6 +110,6 @@ So just be normal..
 \
 
 I value privacy and self will so anything you do here is secure. \
-I dont log anything, run analytics or track you.
+I dont log anything, run analytics or track you. 🤔
 
 Imprint ([EN Version](./impr_en.html) | [DE Version](./impr_de.html)), [Scratchpad](./scratchpad.html)
