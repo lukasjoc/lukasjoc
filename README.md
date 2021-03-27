@@ -1,2 +1,2 @@
 
-goto lukasjoc.com
+goto [lukasjoc.com](https://lukasjoc.com)
