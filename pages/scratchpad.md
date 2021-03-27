@@ -3,12 +3,23 @@ title: Scratchpad | Lukas Jocham | Software Developer from Munich, Germany
 ---
 
 ## Scratchpad:
+
+```bash
+# remove spaces in file names to underscores
+
+for f in *\ *; do mv "$f" "${f// /_}"; done
 ```
-for f in *\ *; do mv "$f" "${f// /_}"; done # remove spaces in file names to underscores
 
-:%s\\g # search and replace
+```bash
+# search and replace in vim 
 
-for $f in $PWD/*; do nvim $f -c "retab" -c "wq!"; done # run retab on all files in current dir
+:%s\\g
+```
+
+```bash
+# run retab on all files in current dir
+
+for $f in $PWD/*; do nvim $f -c "retab" -c "wq!"; done
 ```
 
 
