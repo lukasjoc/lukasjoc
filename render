@@ -25,15 +25,15 @@ __usage() {
 Rendering/Build script. Markdown content to html with template
 
 Usage:
- ./render [single flag]
+ ./render [a single flag]
  
 Flags:
  -s         build the bundle and expose as docker container
  -b         build the bundle to build/ dir
- --version  print current version of this script ($_RENDER_VERSION)
- --help     this message
+ -v         print current version of this script ($_RENDER_VERSION)
 
-Use "./render --help" for more information about this script.
+ Use "./render --help" for more information about this script.
+ --help     this message
 EOF
 }
 
@@ -91,9 +91,9 @@ while [[ "$#" -ne 0 ]]; do
   case "$1" in
     -s) serve;;
     -b) build;;
+    -v) echo "render version $_RENDER_VERSION"; exit 0;;
     --help) __usage; exit 0;;
-    --version) echo "render version $_RENDER_VERSION"; exit 0;;
-    *) __usage; exit 1;;
+    *) __usage; exit 0;;
   esac
   shift
 done
