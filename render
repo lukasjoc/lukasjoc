@@ -16,9 +16,6 @@ set -u
 
 declare _RENDER_VERSION="v0.3"
 
-# print current version of this srcipt
-__version() { echo "render version v0.3"; }
-
 # print usage information
 __usage() {
   cat <<EOF
