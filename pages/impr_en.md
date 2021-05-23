@@ -1,5 +1,5 @@
 ---
-title: Imprint | Lukas Jocham | Software Developer from Munich, Germany
+title: Imprint
 ---
 
 ## Imprint

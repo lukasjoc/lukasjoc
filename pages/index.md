@@ -1,5 +1,5 @@
 ---
-title: Lukas Jocham | Software Developer from Munich, Germany
+title: Index
 ---
 
 ![](https://avatars1.githubusercontent.com/u/45790416 "avatar")
@@ -7,20 +7,25 @@ title: Lukas Jocham | Software Developer from Munich, Germany
 # Hey, me Lukas
 **Software Developer** from Germany.
 
-[GitHub](https://github.com/lukasjoc)
-[Twitter](https://twitter.com/lukasjoc)
-[LinkedIn](https://linkedin.com/in/lukasjoc)
+[github.com/lukasjoc](https://github.com/lukasjoc) \
+[github.com/deowo](https://github.com/deowo) \
+[sr.ht/~lukasjoc](https://sr.ht/~lukasjoc/) \
+[launchpad.net/~lukasjoc](https://launchpad.net/~lukasjoc) \
+[zotero.com/lukasjoc](https://www.zotero.org/lukasjoc) \
+<!--
+twitter is kinda ZnVja2Vk ==> https://twitter.com/lukasjoc
+linkedin is really ZnVja2Vk ==> https://linkedin.com/in/lukasjoc
+-->
 
 When it becomes work and does not remain learning, it becomes **creeping**, **pressing**, **bland**, **unwanted**. \
 If you have a **cool** problem, or want to talk to me then message me via [email](mailto:jochamlu@gmail.com)
-
 
 <pre>
        ////////
      .'       `'.
     / - -        `\
-   /(')(')         \
-   /  ^        )   |
+   /(@)(@)         |
+   /  ^        @   |
    \.--.           |
     \--'          /
      \__.-' __..''
@@ -53,27 +58,16 @@ So just be normal..
 [Enduro](https://en.wikipedia.org/wiki/Enduro_(mountain_biking)),
 [Nature](https://en.wikipedia.org/wiki/Nature),
 [Cooking](https://en.wikipedia.org/wiki/Cooking),
+Tinkering with electronics,
 
 ## Some fields that interest me:
 [Systems Programming](https://en.wikipedia.org/wiki/Systems_programming),
-[Embedded System Programming](https://en.wikipedia.org/wiki/Embedded_system),
-[Automation](https://en.wikipedia.org/wiki/Automation),
 [Linux and Operating Systems](https://en.wikipedia.org/wiki/Linux),
+[Embedded System Programming](https://en.wikipedia.org/wiki/Embedded_system),
 [Robotics and intelligent machines](https://en.wikipedia.org/wiki/Robotics),
-[Neuroscience and BioInformatics](https://en.wikipedia.org/wiki/Neuroscience),
 [Models, Emulators and Simulators](https://en.wikipedia.org/wiki/Computer_simulation)
-
-## Tools I use:
-[Git](https://git-scm.com),
-[Vim/Nvim](https://www.vim.org),
-[Tmux](https://github.com/tmux/tmux),
-[Bitwarden](https://www.bitwarden.com),
-[Macbook Pro](https://apple.com),
-[Arch](https://www.archlinux.org/),
-[MacOS](https://www.apple.com/macos/),
-[Pandoc](https://pandoc.org/),
-[WASD CODE Keyboard (Clears)](https://www.codekeyboards.com/),
-[Pocket](https://getpocket.com/)
+[Neuroscience and BioInformatics](https://en.wikipedia.org/wiki/Neuroscience),
+[Automation](https://en.wikipedia.org/wiki/Automation),
 
 <!-- Add author archives that i like like Max Frisch, Herman Hesse, etc-->
 ## Nice to watch:
@@ -94,9 +88,7 @@ So just be normal..
 [Milton Friedman - I, Pencil](https://www.youtube.com/watch?v=67tHtpac5ws),
 [Eric Thomas | Motivational Speech | How Bad Do you](https://www.youtube.com/watch?v=6vuetQSwFW8)
 
-<!-- TODO: add pdfs to these books when possible -->
 ## Great books and reading:
-[Free Programming Books](https://goalkicker.com/),
 [The Hacker Manifesto](http://www.mithral.com/~beberg/manifesto.html),
 [A Casino Odyssey in Cyberspace](http://localroger.com/casodycs.html),
 [Crime and Punishment](https://www.planetebook.com/free-ebooks/crime-and-punishment.pdf),
@@ -112,4 +104,4 @@ So just be normal..
 I value privacy and self will so anything you do here is secure. \
 I dont log anything, run analytics or track you. 🤔
 
-Imprint ([EN Version](./impr_en.html) | [DE Version](./impr_de.html)), [Scratchpad](./scratchpad.html)
+Imprint ([EN Version](./impr_en.html) | [DE Version](./impr_de.html))

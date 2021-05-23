@@ -1,5 +1,5 @@
 ---
-title: Impressum | Lukas Jocham | Software Developer from Munich, Germany
+title: Impressum
 ---
 
 ## Impressum

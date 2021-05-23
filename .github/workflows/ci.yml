@@ -1,13 +1,12 @@
 name: Try to build markdown files using pandoc
 
-x-branches: &branches
-  branches: [ main ]
-
 on:
   push:
-    <<: *branches
+    branches:
+      - main
   pull_request:
-    <<: *branches
+    branches:
+      - main
 
 jobs:
   build:
@@ -16,5 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Check if container build works
-      run: ./render serve
-
+      run: ./render -b

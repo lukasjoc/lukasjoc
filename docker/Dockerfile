@@ -3,7 +3,7 @@ RUN apk --no-cache add bash
 WORKDIR /app/
 COPY . .
 RUN apk --no-cache add bash tree
-RUN /bin/bash render build
+RUN /bin/bash render -b
 RUN apk --no-cache del bash tree
 
 #-------
