@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-20.04
     timeout-minutes: 10
     steps:
-     - uses: docker://pandoc/core:2.9
+      - uses: docker://pandoc/core:2.9
       - run: ./render -b
