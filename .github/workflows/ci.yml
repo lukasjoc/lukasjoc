@@ -13,5 +13,6 @@ jobs:
     runs-on: ubuntu-20.04
     timeout-minutes: 10
     steps:
-      - uses: docker://pandoc/core:2.9
-      - run: ./render -s
+    - uses: actions/checkout@v2
+    - name: Check if container build works
+      run: ./render -s
