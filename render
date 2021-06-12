@@ -52,13 +52,23 @@ build() {
 
   # build markdown files and add to build_dir
   local pages="$PWD/pages"
+  local blogs="$PWD/blogs"
   for candidate in "$pages"/*.md; do
     pandoc \
       --from markdown \
       --to html "$candidate" \
-      --template="$PWD"/default.html \
+      --template="$PWD"/templates/default.html \
       -o "$build_dir/$(basename "${candidate%.*}").html"
     done
+  for candidate in "$blogs"/*.md; do
+    pandoc \
+      --from markdown \
+      --to html "$candidate" \
+      --template="$PWD"/templates/blog.html \
+      -o "$build_dir/$(basename "${candidate%.*}").html"
+    done
+
+
     tree "$build_dir"
     return 0
   }
