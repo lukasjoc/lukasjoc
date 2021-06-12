@@ -1,8 +1,50 @@
 {% extends "base.html" %}
 
+<!-- main site -->
 {% block content %}
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
-<p>Click <a href="/blog/">here</a> to see my posts.</p>
+
+<main>
+  <p>
+  <img src="https://avatars1.githubusercontent.com/u/45790416" title="avatar">
+  </p>
+
+  <h1>Hey, me Lukas</h1>
+  <p>
+  <strong>Software Developer</strong> from Germany.
+  </p>
+
+  <p>
+  <a href="https://github.com/lukasjoc">github.com/lukasjoc</a><br>
+  <a href="https://github.com/deowo">github.com/deowo</a><br>
+  <a href="https://sr.ht/~lukasjoc/">sr.ht/~lukasjoc</a><br>
+  <a href="https://launchpad.net/~lukasjoc">launchpad.net/~lukasjoc</a><br>
+  <a href="https://www.zotero.org/lukasjoc">zotero.com/lukasjoc</a><br>
+  </p>
+
+  <p>
+    When it becomes work and does not remain learning, it becomes
+    <strong>creeping</strong>,
+    <strong>pressing</strong>,
+    <strong>bland</strong>,
+    <strong>unwanted</strong>.
+    <br>
+    <br>
+
+    If you have a <strong>cool</strong> problem, or want to talk to me then message me via
+    <a href="mailto:jochamlu@gmail.com">email</a>
+  </p>
+
+  <hr/>
+
+  <p>Gedanken: <a href="/blog/">here</a></p>
+  <h1 class="title">
+    {{ section.title }}
+  </h1>
+  <ul>
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+</main>
 {% endblock content %}

@@ -3,15 +3,36 @@
 
 <head>
   <meta charset="utf-8">
-  <title>MyBlog</title>
+  <title>Blog</title>
 </head>
 
-<body>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock %}
-    </div>
-  </section>
-</body>
-
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hey, me Lukas Software Developer from Germany.
+    This is my portfolio listsmore about me, what i like, tools I use or programming languages I use.">
+    <meta name="keywords" content="lukas,jocham,programmer,website,portfolio">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="Everything on this website is licensed under an ISC license. Links to other sites excluded.">
+    <meta name="language" content="EN">
+    <meta name="author" content="lukasjoc">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <link
+      rel="canonical shortcut icon"
+      type="image/x-icon"
+      href="https://avatars1.githubusercontent.com/u/45790416">
+    <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm_theme_black.min.css">
+    <title>Lukas Jocham | Software Developer from Munich, Germany</title>
+    <style>
+      html, body { font-size: 105%; font-family: monospace; }
+      img { margin: 0; padding: 0; width: 10rem; height: 10rem; border-radius: 50%; }
+      a { font-weight: 700; }
+      pre { background: none !important; font-size: 1em; }
+    </style>
+  </head>
+  <body>
+    {% block content %} {% endblock %}
+  </body>
 </html>

@@ -1,7 +1,7 @@
 +++
-title = "Index"
+title = "blog"
 sort_by = "date"
-template = "index.html"
+template = "blog.html"
 page_template = "post.html"
 +++
 
