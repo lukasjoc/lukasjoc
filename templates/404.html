@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block main  %}
+  <pre>
+             ////////
+           .'       `'.
+          / - -        `\
+         /(@)(@)         |
+         /  ^        @   |
+         \.--.           |
+          \--'          / <span class="current-page"></span> ??
+           \__.-' __..''  whot you evn dng here?
+            /    |
+  </pre>
+  <h4> HTTP/404 | Page Not Found </h4>
+</div>
+<script>
+  let a = document.querySelector(".current-page").innerText = window.location.pathname
+</script>
+{%endblock %}
+

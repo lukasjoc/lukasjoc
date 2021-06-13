@@ -1,9 +1,18 @@
 {% extends "base.html" %}
-
-{% block content %}
-<h1 class="title">
-  {{ page.title }}
-</h1>
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
-{{ page.content | safe }}
-{% endblock content %}
+{% block main %}
+  <small class="subtitle">
+    {%if page.updated %}
+      {{ page.updated }} / <strong> {{ page.title }} </strong>
+    {%else %}
+      {{ page.date }} / <strong> {{ page.title }} </strong>
+    {%endif%}
+  </small>
+  {{ page.content | safe }}
+{% endblock main %}
+<!-- page:
+  reading_time 
+  word_count
+  summary
+  lighter
+  heavier
+-->

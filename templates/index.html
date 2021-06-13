@@ -1,50 +1,52 @@
 {% extends "base.html" %}
 
-<!-- main site -->
-{% block content %}
+{% block main %}
 
-<main>
-  <p>
-  <img src="https://avatars1.githubusercontent.com/u/45790416" title="avatar">
-  </p>
+<p>
+<img src="https://avatars1.githubusercontent.com/u/45790416" title="avatar">
+</p>
 
-  <h1>Hey, me Lukas</h1>
-  <p>
-  <strong>Software Developer</strong> from Germany.
-  </p>
+<h1>Hey, me Lukas</h1>
+<small>
+  <strong>Software Enthusiast</strong> from Germany.
+</small>
 
-  <p>
-  <a href="https://github.com/lukasjoc">github.com/lukasjoc</a><br>
-  <a href="https://github.com/deowo">github.com/deowo</a><br>
-  <a href="https://sr.ht/~lukasjoc/">sr.ht/~lukasjoc</a><br>
-  <a href="https://launchpad.net/~lukasjoc">launchpad.net/~lukasjoc</a><br>
-  <a href="https://www.zotero.org/lukasjoc">zotero.com/lukasjoc</a><br>
-  </p>
+<p>
+<a href="https://github.com/lukasjoc" title="Follow me on my Github">github.com/lukasjoc</a><br>
+<a href="https://github.com/deowo" title="Please write more open source software">github.com/deowo</a><br>
+<a href="https://sr.ht/~lukasjoc/" title="Sourcehut. The place where haxxors reside">sr.ht/~lukasjoc</a><br>
+<a href="https://launchpad.net/~lukasjoc" title="I also have a launchpad account">launchpad.net/~lukasjoc</a><br>
+<a href="https://www.zotero.org/lukasjoc" title="Zotero is the single best thing you can get to make your
+         life better and more organized">zotero.com/lukasjoc</a><br>
+</p>
 
-  <p>
-    When it becomes work and does not remain learning, it becomes
-    <strong>creeping</strong>,
-    <strong>pressing</strong>,
-    <strong>bland</strong>,
-    <strong>unwanted</strong>.
-    <br>
-    <br>
+<p>
+When it becomes work and does not remain learning, it becomes
+<strong>creeping</strong>,
+<strong>pressing</strong>,
+<strong>bland</strong>,
+<strong>unwanted</strong>.
+<br>
+<br>
 
-    If you have a <strong>cool</strong> problem, or want to talk to me then message me via
-    <a href="mailto:jochamlu@gmail.com">email</a>
-  </p>
+If you have a <strong>cool</strong> problem, or want to talk to me then message me via
+<a href="mailto:jochamlu@gmail.com"
+  title="Please be sure to send me an email. If you fuck me off I will block you forever">email</a>
+</p>
 
-  <hr/>
+<hr/>
+<p>Gedanken kaum zu glauben: </p>
+{% for year, posts in section.pages | group_by(attribute="year") %}
+<h4>Year: {{ year }} </h4>
+{% for post in posts %}
+<a href="{{ post.permalink | safe }}">
+  {%if post.updated %}
+  {{ post.updated }} / {{ post.title }}
+  {%else %}
+  {{ post.date }} / {{ post.title }}
+  {%endif%}
+</a><br/>
+{% endfor %}
+{% endfor %}
 
-  <p>Gedanken: <a href="/blog/">here</a></p>
-  <h1 class="title">
-    {{ section.title }}
-  </h1>
-  <ul>
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-</main>
-{% endblock content %}
+{% endblock %}

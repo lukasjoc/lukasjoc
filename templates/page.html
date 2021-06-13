@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block main %}
+<small class="subtitle">
+  <strong> {{ page.title }} </strong>
+</small>
+{{ page.content | safe }}
+{% endblock main %}
