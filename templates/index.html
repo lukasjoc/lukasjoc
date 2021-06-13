@@ -17,7 +17,7 @@
 <a href="https://sr.ht/~lukasjoc/" title="Sourcehut. The place where haxxors reside">sr.ht/~lukasjoc</a><br>
 <a href="https://launchpad.net/~lukasjoc" title="I also have a launchpad account">launchpad.net/~lukasjoc</a><br>
 <a href="https://www.zotero.org/lukasjoc" title="Zotero is the single best thing you can get to make your
-         life better and more organized">zotero.com/lukasjoc</a><br>
+                                         life better and more organized">zotero.com/lukasjoc</a><br>
 </p>
 
 <p>
@@ -31,22 +31,23 @@ When it becomes work and does not remain learning, it becomes
 
 If you have a <strong>cool</strong> problem, or want to talk to me then message me via
 <a href="mailto:jochamlu@gmail.com"
-  title="Please be sure to send me an email. If you fuck me off I will block you forever">email</a>
+   title="Please be sure to send me an email. If you fuck me off I will block you forever">email</a>
 </p>
 
 <hr/>
 <p>Gedanken kaum zu glauben: </p>
 {% for year, posts in section.pages | group_by(attribute="year") %}
 <h4>Year: {{ year }} </h4>
-{% for post in posts %}
+
+{%for post in posts %}
 <a href="{{ post.permalink | safe }}">
   {%if post.updated %}
   {{ post.updated }} / {{ post.title }}
   {%else %}
   {{ post.date }} / {{ post.title }}
-  {%endif%}
+  {%endif %}
 </a><br/>
-{% endfor %}
-{% endfor %}
+{%endfor %}
+{%endfor %}
 
-{% endblock %}
+{%endblock %}

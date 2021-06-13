@@ -1,18 +1,40 @@
 {% extends "base.html" %}
 {% block main %}
-  <small class="subtitle">
-    {%if page.updated %}
-      {{ page.updated }} / <strong> {{ page.title }} </strong>
+  <div class="subtitle">
+    <h1> {{page.title }} </h1>
+    <small>
+    Time-to-read:
+    {%if page.reading_time > 1 %}
+    {{page.reading_time}} Minutes
     {%else %}
-      {{ page.date }} / <strong> {{ page.title }} </strong>
+      {{page.reading_time}} Minute
+    {%endif %}<br/>
+    {%if page.updated %}
+      Updated: {{ page.updated }}
+    {%else %}
+      Date: {{page.date }}
     {%endif%}
-  </small>
+    </small>
+  </div>
   {{ page.content | safe }}
 {% endblock main %}
-<!-- page:
-  reading_time 
-  word_count
-  summary
-  lighter
-  heavier
--->
+
+{% block pagination %}
+  {% if page.later %}
+    <span style="float: left;">
+    <-&nbsp;
+    <a href="{{ page.later.permalink }}">
+      <small>{{ page.later.title }}</small>
+    </a>
+    </span>
+  {% endif %}
+  {% if page.earlier %}
+  <span style="float: right;">
+    <a href="{{ page.earlier.permalink }}">
+      <small>{{ page.earlier.title }}</small>
+    </a>
+    &nbsp;-></span>
+  {% endif %}
+{%endblock %}
+ 
+

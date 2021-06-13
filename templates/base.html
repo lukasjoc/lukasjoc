@@ -19,19 +19,15 @@
       href="https://avatars1.githubusercontent.com/u/45790416">
     <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm_theme_black.min.css">
     <style>
-      html, body { font-size: 90%; font-family: monospace; }
+      html, body { font-size: 100%; font-family: monospace; }
       img { margin: 0; padding: 0; width: 10rem; height: 10rem; border-radius: 50%; }
       a { font-weight: 700; }
       pre { background: none !important; font-size: .75em; }
-      @font-face {
-        font-family: "Times";
-        src: url("Times.ttc");
-      }
     </style>
     {%if page.title %}
-      <title>{{page.title}} | {{ config.title }} </title>
+    <title>{{page.title}} | {{ config.title }} </title>
     {%else %}
-      <title>{{ config.title }} </title>
+    <title>{{ config.title }} </title>
     {%endif %}
   </head>
   <body>
@@ -44,7 +40,11 @@
     <main>
       {% block main %} {% endblock %}
       <hr/>
+      {% block pagination %} {%endblock %}
+    </main>
+    <footer>
       <a href="{{config.base_url}}">lukasjoc</a>, <span class="current-year"></span>
+    </footer>
     </main>
     <script>
       let e = document.querySelector(".current-year")

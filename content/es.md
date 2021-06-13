@@ -24,8 +24,6 @@ D stehet für **Delegate**. Nun auch wenn es in deiner Art liegt. Du musst nicht
 
 
 ```python
-
-
 def pi_nks(limit: int) -> float:
     pi: float = 3.0
     s: int =  1
@@ -46,6 +44,4 @@ if __name__ == "__main__":
     LIMIT: int = 100
     print(f"NKS: {pi_nks(limit=LIMIT):.13f}")
     print(f"GLS: {pi_gls(limit=LIMIT):.13f}")
-
-
 ```

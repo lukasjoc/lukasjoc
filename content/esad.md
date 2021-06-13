@@ -1,6 +1,6 @@
 +++
 title = "ESAD | Ein Konzept"
-date = 2021-06-13
+date = 2020-06-13
 +++
 
 Ich konnte mir vor einigen Jahren ein Konzept aneignen, dass mir
