@@ -8,7 +8,7 @@ compile_sass = true
 build_search_index = false
 
 # the meta title of any page
-title = "(lukasjoc) Lukas Jocham | Software Enthusiast from Munich, Germany"
+title = "lukasjoc | Software Enthusiast and Programmer from Germany"
 
 # the meta description of any page
 description = "Personal HomePage by Lukas Jocham (lukasjoc) and some thoughts on things of life,fiction and technology"
@@ -22,7 +22,6 @@ default_language = "en"
 highlight_code = true
 highlight_theme = "1337"
 smart_punctuation = true
-render_emoji = true
 
 [extra]
 # Put all your custom variables here
