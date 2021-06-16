@@ -1,0 +1,23 @@
+@import "theme";
+
+html, body {
+  font-size: 105%;
+  font-family: monospace;
+
+  img {
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+
+  strong,b,a {
+    font-weight: 700;
+  }
+
+  code,pre {
+    background: none !important;
+    font-size: .75em;
+  }
+}

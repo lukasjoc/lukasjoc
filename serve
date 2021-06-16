@@ -1,0 +1,3 @@
+#!/bin/bash
+
+zola serve -i 192.168.178.26 -u 192.168.178.26 -p 1111 -o build

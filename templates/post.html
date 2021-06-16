@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block main %}
+  <article class="subtitle">
+    <h1> {{page.title }} </h1>
+    <small>
+      Time-to-read:
+      {%if page.reading_time > 1 %}
+      {{page.reading_time}} Minutes
+      {%else %}
+        {{page.reading_time}} Minute
+      {%endif %}<br/>
+      {%if page.updated %}
+        Updated: {{ page.updated }}
+      {%else %}
+        Date: {{page.date }}
+      {%endif%}
+    </small>
+  {{ page.content | safe }}
+  </article>
+{% endblock main %}
+
+{% block pagination %}
+  <span>Weiteres:</span> </br>
+  {%if page.later%}
+    <a href="{{ page.later.permalink }}"> <small>{{ page.later.title }}</small></a> <br>
+  {%endif%}
+  {%if page.earlier%}
+    <a href="{{ page.earlier.permalink }}"> <small>{{ page.earlier.title }}</small> </a>
+  {%endif%}
+{%endblock %}
+ 
+
