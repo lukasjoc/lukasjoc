@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hey, me Lukas Software Developer from Germany. This is my portfolio listsmore about me, what i like, tools I use or programming languages I use.">
     <meta name="robots" content="index, follow">
     <meta name="copyright" content="Everything on this website is licensed under an ISC license. Links to other sites excluded.">
     <meta name="language" content="EN">
@@ -13,21 +11,14 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
     <meta name="description" content="{{ config.description }}">
-    <link
-      rel="canonical shortcut icon"
+    <link rel="canonical shortcut icon"
       type="image/x-icon"
       href="https://avatars1.githubusercontent.com/u/45790416">
-    <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm_theme_black.min.css">
-    <style>
-      html, body { font-size: 100%; font-family: monospace; }
-      img { margin: 0; padding: 0; width: 10rem; height: 10rem; border-radius: 50%; }
-      a { font-weight: 700; }
-      pre { background: none !important; font-size: .75em; }
-    </style>
+     <link rel="stylesheet" href="../overwrites.css" type="text/css" />
     {%if page.title %}
-    <title>{{page.title}} | {{ config.title }} </title>
+      <title>{{page.title}} | {{ config.title }} </title>
     {%else %}
-    <title>{{ config.title }} </title>
+      <title>{{ config.title }} </title>
     {%endif %}
   </head>
   <body>
