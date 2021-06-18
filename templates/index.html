@@ -45,7 +45,7 @@ When it becomes work and does not remain learning, it becomes
 {% for year, posts in section.pages | group_by(attribute="year") %}
 <h5>{{ year }}:</h5>
 {%for post in posts %}
-<small><a href="{{ post.permalink | safe }}" title="{{post.date}}/{{post.title}}/{{post.reading_time}}">
+<small><a href="{{post.path}}" title="{{post.date}}/{{post.title}}/{{post.reading_time}}">
     {%if post.updated %}
       {{ post.updated }} / {{ post.title }}
     {%else %}
