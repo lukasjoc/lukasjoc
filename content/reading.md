@@ -27,5 +27,6 @@ The Metamorphosis of Prime Intellect \
 Infinite Jest \
 Atlas Shrugged \
 Permutation City \
-Description of the Voynich MS
+Description of the Voynich MS \
+A Field Guide to Critical Thinking
 
