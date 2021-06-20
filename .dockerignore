@@ -1,7 +1,0 @@
-*.md
-*.sh
-out/
-.cache/
-.DS_Store
-.vscode/
-

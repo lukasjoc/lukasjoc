@@ -20,6 +20,7 @@
 {% endblock main %}
 
 {% block pagination %}
+  <div>
   <span>Weiteres:</span> </br>
   {%if page.later%}
     <a href="{{ page.later.path }}"> <small>{{ page.later.title }}</small></a> <br>
@@ -27,6 +28,7 @@
   {%if page.earlier%}
   <a href="{{ page.earlier.path }}"> <small>{{ page.earlier.title }}</small> </a>
   {%endif%}
+  </div>
 {%endblock %}
  
 

@@ -29,17 +29,23 @@
       </nav>
     </header>
     <main>
-      {% block main %} {% endblock %}
+      <section>
+        {% block main %} {% endblock %}
+      </section>
       <hr/>
       {% block pagination %} {%endblock %}
     </main>
     <footer>
-      <a href="/">lukasjoc</a>, <span class="current-year"></span>
+      <a href="/">lukasjoc</a>,
     </footer>
     </main>
     <script>
-      let e = document.querySelector(".current-year")
-      e.innerText = new Date().getFullYear()
+      let dateEl = document.createElement("span")
+      dateEl.innerText = new Date().getFullYear()
+      dateEl.classList.add("current-year");
+
+      let footerEl = document.querySelector("footer")
+      footerEl.appendChild(dateEl)
     </script>
   </body>
 </html>

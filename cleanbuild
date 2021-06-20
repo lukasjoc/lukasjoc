@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf public/
+rm -rf build/
+
+zola build
