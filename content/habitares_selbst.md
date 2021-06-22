@@ -1,5 +1,5 @@
 +++
-title = "Fragen an das Habitate Selbst"
+title = "Fragen an das habitare Selbst"
 date = 2021-06-16
 +++
 
@@ -16,7 +16,7 @@ Wisse was du nicht machst \
 
 Bla, Bla, Bla dachte ich.
 
-Doch in diesem Augenblick erkannte ich meine Hilflosigkeit meines Habitären Selbsts.
+Doch in diesem Augenblick erkannte ich meine Hilflosigkeit meines habitaren Selbsts.
 
 Er redete auf mich ein, erkennst du dich selbst? \
 Ich redete auf mich ein, erkennst du dich selbst? \
