@@ -25,6 +25,5 @@ Verwirrung den Verwirrten.
 Doch eins ist klar. Nicht du oder eine andere Kraft des Universums könnte
 verstehen, wann dies Ereignis erst geschah.
 
-Mit Achtung und Respekt trete ich nun in mein Leben, mit Verständnis das ich nur Gast meines
-eigeinen Welt. Und ich machtlos gegen diese Gewalt als tausend Sonnen gebahren.
-
+Mit Achtung und Respekt trete ich nun in mein Leben mit Verständnis, das ich nur Gast meines eigenen Welt.
+Und ich machtlos gegen diese Gewalt, als tausend Sonnen gebaren.
