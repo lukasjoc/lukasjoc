@@ -1,5 +1,5 @@
 +++
-title = "Identitätsproblematik - Finden zu dem, was sich Selbst nennt."
+title = "Identitätsproblematik - Selbstfindung"
 date = 2021-06-16
 +++
 

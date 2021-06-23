@@ -11,41 +11,97 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
     <meta name="description" content="{{ config.description }}">
-    <link rel="canonical shortcut icon"
-      type="image/x-icon"
-      href="https://avatars1.githubusercontent.com/u/45790416">
-     <link rel="stylesheet" href="../overwrites.css" type="text/css" />
+
+    <link rel="canonical shortcut icon" type="image/x-icon" href="https://avatars1.githubusercontent.com/u/45790416">
+    <link rel="stylesheet" href="../overwrites.css" type="text/css" />
+    <link title="light" rel="stylesheet" href="../awsm.min.css" disabled="true">
+    <link title="dark" rel="stylesheet" href="../awsm_theme_black.min.css">
+
     {%if page.title %}
-      <title>{{page.title}} | {{ config.title }} </title>
+    <title>{{page.title}} | {{ config.title }} </title>
     {%else %}
-      <title>{{ config.title }} </title>
+    <title>{{ config.title }} </title>
     {%endif %}
   </head>
-  <body>
-    <header>
+  <body theme="light">
+    <header class="custom-blog-header">
       <nav>
         <a href="/">lukasjoc</a>
         <a href="/etc/impr">imprint</a>
       </nav>
+      <div>
+        <button id="theme-switch">
+          <small>dark|light</small>
+        </button>
+      </div>
     </header>
     <main>
       <section>
-        {% block main %} {% endblock %}
+        {% block main %}
+        {% endblock %}
       </section>
       <hr/>
-      {% block pagination %} {%endblock %}
+      {% block pagination %}
+      {%endblock %}
     </main>
     <footer>
       <a href="/">lukasjoc</a>,
     </footer>
     </main>
     <script>
-      let dateEl = document.createElement("span")
-      dateEl.innerText = new Date().getFullYear()
-      dateEl.classList.add("current-year");
+      "use strict";
 
-      let footerEl = document.querySelector("footer")
-      footerEl.appendChild(dateEl)
+      let dateEl = document.createElement("span");
+      dateEl.innerText = new Date().getFullYear();
+      dateEl.classList.add("current-year");
+      let footerEl = document.querySelector("footer");
+      footerEl.appendChild(dateEl);
+
+      // ---- Theme Switch Logic
+      const field = "theme";
+      let darkTheme = document.querySelector("link[title='dark']");
+      let lightTheme = document.querySelector("link[title='light']");
+      let themeSwitch = document.querySelector("#theme-switch");
+      const hasThemeStorage = typeof localStorage.getItem(field) !== "undefined";
+      let currentTheme = hasThemeStorage ? JSON.parse(localStorage.getItem(field)) : "dark";
+
+      // take on current theme
+      if(currentTheme === "dark") {
+        themeSwitch.innerText = "light";
+        lightTheme.setAttribute("disabled", true);
+        darkTheme.removeAttribute("disabled");
+      }else if(currentTheme === "light") {
+        themeSwitch.innerText = "dark";
+        darkTheme.setAttribute("disabled", true);
+        lightTheme.removeAttribute("disabled");
+      }
+
+      // change and update theme on click
+      themeSwitch.addEventListener("click", (event) => {
+        event.preventDefault();
+        currentTheme = currentTheme === "light" ? "dark" : "light";
+
+        // take on current theme:w
+        if(currentTheme === "dark") {
+          themeSwitch.innerText = "light";
+          lightTheme.setAttribute("disabled", true);
+          darkTheme.removeAttribute("disabled");
+        }else if(currentTheme === "light") {
+          themeSwitch.innerText = "dark";
+          darkTheme.setAttribute("disabled", true);
+          lightTheme.removeAttribute("disabled");
+        }
+
+        if(!hasThemeStorage) {
+          localStorage.setItem("theme", JSON.stringify("dark"));
+        }else {
+          let copy = JSON.parse(localStorage.getItem(field));
+          copy = JSON.stringify(currentTheme);
+          localStorage.setItem(field, copy);
+        }
+      });
+
     </script>
   </body>
 </html>
+

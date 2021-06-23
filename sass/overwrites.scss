@@ -1,7 +1,5 @@
-@import "theme";
-
 html, body {
-  font-size: 105%;
+  font-size: 99%;
   font-family: monospace;
 
   img {
@@ -21,8 +19,25 @@ html, body {
     font-size: .75em;
   }
 
-  .current-year {
-    color: #fff;
+  .custom-blog-header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    nav, div {
+      height: 2rem;
+      width: 50%;
+    }
+
+    div {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+      height: 2rem;
+      button { height: 100%; }
+    }
+
   }
 
 }
+

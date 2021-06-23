@@ -1,5 +1,5 @@
 +++
-title = "Tausend Sonnen- Zyklus"
+title = "Tausend Sonnen - Zyklus"
 date = 2021-06-22
 +++
 
@@ -27,3 +27,4 @@ verstehen, wann dies Ereignis erst geschah.
 
 Mit Achtung und Respekt trete ich nun in mein Leben mit Verständnis, das ich nur Gast meines eigenen Welt.
 Und ich machtlos gegen diese Gewalt, als tausend Sonnen gebaren.
+
