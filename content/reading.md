@@ -1,6 +1,7 @@
 +++
 title = "Bücherliste und sehenswerter Content"
 date = 2021-06-16
+updated = 2021-06-30
 +++
 
 Videos und anderer Content:
@@ -28,5 +29,6 @@ Infinite Jest \
 Atlas Shrugged \
 Permutation City \
 Description of the Voynich MS \
-A Field Guide to Critical Thinking
+A Field Guide to Critical Thinking \
+Escape from the ivory tower: the Haskell journey
 
