@@ -18,6 +18,7 @@ Writing Beautiful Packages in Go \
 10 Tips For Clean Code \
 Milton Friedman - I, Pencil \
 Eric Thomas | Motivational Speech | How Bad Do you \
+St. Vincent - Guitar Moves (Noisey) FULL \
 
 Empfehlungen zu Büchern, Texten und Gedanken:
 ---
