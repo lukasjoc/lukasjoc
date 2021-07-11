@@ -6,3 +6,4 @@ tags
 public/
 build/
 deployment.hook
+code/
